@@ -1,0 +1,1787 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Киновселенная DC — полный список</title>
+<style>
+  :root {
+    --bg: #0c0f17;
+    --card: #161b29;
+    --text: #e8ecf6;
+    --muted: #94a0bd;
+    --subtle: #66708d;
+    --accent: #2997f5;
+    --accent-soft: #112742;
+    --border: #25304a;
+    --hover: #1d2740;
+    --check: #4ade80;
+    --gold: #f5c518;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  header {
+    background: linear-gradient(135deg, #0c0f17 0%, #112742 100%);
+    padding: 24px 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--accent);
+  }
+  header h1 {
+    margin: 0 0 4px 0;
+    font-size: 1.8em;
+    letter-spacing: -0.5px;
+  }
+  header p { margin: 0; color: var(--muted); font-size: 0.9em; }
+  .header-sources { margin-bottom: 2px; }
+  .header-tagline { font-size: 0.82em; color: var(--subtle); }
+  .header-tagline a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--subtle);
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .header-tagline a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 20px 40px;
+  }
+  .tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .tab {
+    background: none;
+    border: none;
+    color: var(--muted);
+    padding: 8px 16px;
+    font-size: 0.95em;
+    cursor: pointer;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .search {
+    width: 100%;
+    padding: 8px 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.95em;
+    margin-bottom: 12px;
+  }
+  .search:focus { outline: none; border-color: var(--accent); }
+  .total-banner {
+    background: linear-gradient(135deg, #161b29 0%, #112742 100%);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .total-banner-label { color: var(--muted); font-size: 0.85em; }
+  .total-banner-value { font-weight: 700; font-size: 1.15em; color: var(--accent); }
+  .phase {
+    margin-top: 18px;
+    padding: 6px 12px;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .phase-total {
+    font-weight: 600;
+    font-size: 0.95em;
+    color: var(--muted);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .retro-note {
+    margin: 14px 0;
+    padding: 10px 14px;
+    background: #11151f;
+    border: 1px dashed var(--border);
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 0.85em;
+    line-height: 1.5;
+  }
+  .retro-note::before {
+    content: "";
+    display: inline-block;
+    width: 1.05em;
+    height: 1.05em;
+    vertical-align: -0.18em;
+    margin-right: 7px;
+    background-color: var(--accent);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='16' x2='12' y2='12'/%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'/%3E%3C/svg%3E") center/contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' y1='16' x2='12' y2='12'/%3E%3Cline x1='12' y1='8' x2='12.01' y2='8'/%3E%3C/svg%3E") center/contain no-repeat;
+  }
+  .list { list-style: none; padding: 0; margin: 0; }
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    margin: 3px 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    transition: all 0.2s;
+    gap: 10px;
+  }
+  .item:hover { background: var(--hover); }
+  .item.watched { opacity: 0.4; }
+  .item[data-unreleased] { opacity: 0.7; border-style: dashed; }
+  .item[data-unreleased] .checkbox { visibility: hidden; }
+  .checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--border);
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: all 0.15s;
+  }
+  .checkbox:hover { border-color: var(--check); }
+  .checkbox.checked {
+    background: var(--check);
+    border-color: var(--check);
+  }
+  .checkbox.checked::after {
+    content: "✓";
+    color: #0c0f17;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 1;
+  }
+  .item-main { flex: 1; min-width: 0; display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; }
+  .item-title { font-weight: 600; font-size: 0.95em; }
+  .item-ru {
+    color: var(--subtle);
+    font-size: 0.85em;
+    font-style: italic;
+  }
+  .item-ru::before { content: "/ "; }
+  .item-meta { color: var(--muted); font-size: 0.8em; }
+  .item-runtime {
+    color: var(--muted);
+    font-size: 0.78em;
+    font-variant-numeric: tabular-nums;
+    margin-left: auto;
+    padding-left: 8px;
+    white-space: nowrap;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.65em;
+    padding: 1px 6px;
+    border-radius: 8px;
+    background: #2c3147;
+    color: #b4bbd0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .badge.tv { background: #1e3a5f; color: #8ec3f0; }
+  .badge.movie { background: #1e2b4f; color: #8ea8f0; }
+  .badge.special { background: #2e1e3a; color: #c08ef0; }
+  .badge.anim { background: #1e3a2e; color: #8ef0c0; }
+  .badge.soon { background: #3a2e1e; color: #f0d08e; }
+  .imdb-link {
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 3px 9px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.78em;
+    white-space: nowrap;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .imdb-link:hover { background: var(--gold); color: #000; }
+  .hidden { display: none; }
+  .count {
+    color: var(--muted);
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    padding: 20px 16px;
+    font-size: 0.8em;
+    border-top: 1px solid var(--border);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .footer-actions {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .footer-btn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: all 0.15s;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .footer-btn:hover {
+    border-color: var(--accent);
+    background: var(--hover);
+  }
+  .footer-btn.danger:hover {
+    border-color: #ef4444;
+    color: #ef4444;
+  }
+  .footer-note {
+    color: var(--muted);
+    font-size: 0.85em;
+    line-height: 1.5;
+  }
+  .footer-credits {
+    color: var(--subtle);
+    font-size: 0.82em;
+    margin-top: 8px;
+  }
+  .footer-credits a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--subtle);
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .footer-credits a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* Звёзды оценок */
+  .rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 1px;
+    margin-left: 8px;
+    flex-shrink: 0;
+    touch-action: manipulation;
+  }
+  .rating-star {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #3a3f55;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.1s, transform 0.1s;
+    padding: 2px 1px;
+    line-height: 1;
+    position: relative;
+  }
+  .rating-star.filled { color: var(--gold); }
+  .rating-star.half {
+    background: linear-gradient(90deg, #f5c518 50%, #3a3f55 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .rating-star:hover { transform: scale(1.15); }
+  .rating-value {
+    color: var(--muted);
+    font-size: 0.75em;
+    margin-left: 4px;
+    min-width: 18px;
+    font-variant-numeric: tabular-nums;
+  }
+  .rating-clear {
+    cursor: pointer;
+    color: var(--subtle);
+    font-size: 0.7em;
+    margin-left: 2px;
+    padding: 0 4px;
+    line-height: 1;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .rating-clear:hover { color: var(--accent); }
+
+  /* Достижения */
+  .hero-card {
+    background: linear-gradient(135deg, #161b29 0%, #112742 60%, #14315a 100%);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-card::before {
+    content: "";
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(41,151,245,0.12) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-rank-label {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .hero-rank-title {
+    font-size: 1.6em;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+  .hero-rank-sub {
+    color: var(--text);
+    font-size: 0.95em;
+    margin-top: 6px;
+    opacity: 0.9;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .hero-stat {
+    background: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 10px 6px;
+  }
+  .hero-stat-value {
+    font-size: 1.4em;
+    font-weight: 800;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .hero-stat-label {
+    font-size: 0.7em;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+
+  .progress-section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 14px;
+  }
+  .progress-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .progress-grid > .progress-section { margin-bottom: 0; }
+  .progress-cols { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 14px; }
+  .progress-col { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+  .progress-col > .progress-section { margin-bottom: 0; }
+  .progress-section-title {
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .progress-row { margin-bottom: 12px; }
+  .progress-row:last-child { margin-bottom: 0; }
+  .progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 0.88em;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .progress-name { font-weight: 600; }
+  .progress-meta {
+    color: var(--muted);
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+  }
+  .progress-bar {
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent) 0%, #22d3ee 100%);
+    border-radius: 4px;
+    transition: width 0.6s ease-out;
+  }
+  .progress-fill.full {
+    background: linear-gradient(90deg, var(--check) 0%, #22d3ee 100%);
+  }
+
+  .rating-card { display: flex; flex-direction: column; }
+  .rating-card #rating-histogram { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+  .rating-hist {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    flex: 1;
+    min-height: 150px;
+    padding-top: 16px;
+  }
+  .rating-hist-bar-wrap {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .rating-hist-count {
+    font-size: 0.72em;
+    color: var(--muted);
+    margin-bottom: 3px;
+    min-height: 1em;
+    font-variant-numeric: tabular-nums;
+  }
+  .rating-hist-bar {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    min-height: 3px;
+    transition: height 0.5s ease-out;
+  }
+  .rating-hist-axis {
+    display: flex;
+    gap: 4px;
+    margin-top: 6px;
+  }
+  .rating-hist-label {
+    flex: 1;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--subtle);
+    font-variant-numeric: tabular-nums;
+  }
+  .rating-hist-label.has { color: var(--text); font-weight: 700; }
+  .rating-stats {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .rating-stat { text-align: center; }
+  .rating-stat-label { font-size: 0.75em; color: var(--muted); margin-bottom: 2px; }
+  .rating-stat-value { font-size: 1.4em; font-weight: 800; color: var(--gold); font-variant-numeric: tabular-nums; }
+  .rating-empty { color: var(--muted); font-size: 0.88em; text-align: center; padding: 36px 10px; line-height: 1.5; }
+
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 4px;
+  }
+  .achievement {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 10px;
+    text-align: center;
+    transition: all 0.2s;
+    opacity: 0.55;
+    filter: grayscale(0.5);
+    position: relative;
+  }
+  .achievement.unlocked {
+    opacity: 1;
+    filter: none;
+    border-color: var(--accent);
+    background: linear-gradient(135deg, var(--card) 0%, var(--accent-soft) 100%);
+  }
+  .achievement-progress {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 0.65em;
+    color: var(--muted);
+    background: rgba(0,0,0,0.4);
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .achievement.unlocked .achievement-progress {
+    background: linear-gradient(135deg, var(--gold) 0%, #e3a008 100%);
+    color: #0c0f17;
+  }
+  .achievement-icon { font-size: 1.8em; line-height: 1; margin-bottom: 6px; }
+  .achievement-title { font-weight: 700; font-size: 0.85em; margin-bottom: 3px; }
+  .achievement-desc { font-size: 0.72em; color: var(--muted); line-height: 1.3; }
+  .achievement.unlocked .achievement-desc { color: var(--text); opacity: 0.8; }
+
+  .fun-fact {
+    background: linear-gradient(135deg, #11151f 0%, #11203a 100%);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    font-size: 0.88em;
+    color: var(--muted);
+  }
+  .fun-fact strong { color: var(--text); }
+
+  @media (max-width: 600px) {
+    header { padding: 16px 12px; }
+    header h1 { font-size: 1.3em; }
+    header p { font-size: 0.82em; }
+    main { padding: 12px 10px 30px; }
+    .tabs {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      gap: 2px;
+      margin-bottom: 10px;
+    }
+    .tab {
+      padding: 8px 10px;
+      font-size: 0.85em;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    /* На мобильном вкладка «Достижения» — только эмодзи */
+    .tab-label-full { display: none; }
+    .item {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      column-gap: 10px;
+      row-gap: 4px;
+      padding: 8px 10px;
+    }
+    .item-main { display: block; min-width: 0; width: auto; }
+    .item-title { display: block; font-size: 0.95em; line-height: 1.3; word-break: normal; overflow-wrap: break-word; }
+    .item-ru { display: block; font-size: 0.8em; margin-top: 1px; }
+    .item-ru::before { content: ""; }
+    .badge { display: inline-block; margin-top: 3px; margin-right: 4px; font-size: 0.6em; padding: 1px 5px; vertical-align: middle; }
+    .item-meta { display: inline-block; font-size: 0.75em; vertical-align: middle; }
+    .item-runtime { grid-column: 2 / 4; font-size: 0.75em; margin: 0; padding: 0; color: var(--subtle); }
+    .imdb-link { padding: 4px 8px; font-size: 0.72em; }
+    .checkbox { width: 20px; height: 20px; }
+    .phase { font-size: 0.72em; padding: 6px 10px; flex-wrap: wrap; }
+    .phase-total { font-size: 0.88em; }
+    .total-banner { padding: 10px 12px; }
+    .total-banner-value { font-size: 1em; }
+    .retro-note { font-size: 0.78em; padding: 8px 10px; }
+    .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+    .hero-stat { padding: 8px 4px; }
+    .hero-stat-value { font-size: 1.2em; }
+    .hero-stat-label { font-size: 0.65em; }
+    .rating { grid-column: 2 / 4; margin-left: 0; margin-top: 2px; }
+    .rating-star { font-size: 1.5em; padding: 4px 3px; }
+    .rating-value { font-size: 0.85em; margin-left: 6px; }
+    .rating-clear { font-size: 0.9em; padding: 0 6px; }
+    .footer-actions { flex-direction: column; gap: 6px; }
+    .footer-btn { width: 100%; padding: 10px; }
+    .progress-grid { grid-template-columns: 1fr; }
+    .progress-cols { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🦇 Киновселенная DC</h1>
+  <p class="header-sources">Полный список фильмов и сериалов — DCU, DCEU, Elseworlds и классика</p>
+  <p class="header-tagline">Трекер DC с оценками и достижениями · Автор: <a href="https://t.me/purplebluebooks" target="_blank">PURPLEBLUEBOOK</a></p>
+</header>
+
+<main>
+  <div class="tabs">
+    <button class="tab active" data-tab="dceu">DCEU</button>
+    <button class="tab" data-tab="standalone">Вне вселенных</button>
+    <button class="tab" data-tab="dcu">DCU (Ганн)</button>
+    <button class="tab" data-tab="tv">Сериалы</button>
+    <button class="tab" data-tab="anim">Анимация</button>
+    <button class="tab" data-tab="achievements">🏆<span class="tab-label-full"> Достижения</span></button>
+  </div>
+
+  <input type="text" class="search" id="search" placeholder="🔍 Поиск (рус./англ.)...">
+
+  <!-- ========================= DCU (Ганн) ========================= -->
+  <div id="dcu-view" class="hidden">
+    <div class="total-banner">
+      <span class="total-banner-label">Общая длительность DCU:</span>
+      <span class="total-banner-value" id="dcu-total"></span>
+    </div>
+    <p class="count"><span id="dcu-count"></span></p>
+    <div class="retro-note">
+      <strong>DCU</strong> — перезапущенная вселенная Джеймса Ганна и Питера Сафрана, стартовавшая в конце 2024 года. «Грядущее» отмечено пунктиром и не учитывается в прогрессе — галочки появятся после релиза.
+    </div>
+
+    <div class="phase"><span>Глава 1: Боги и монстры — вышло</span><span class="phase-total" data-phase-id="c1"></span></div>
+    <ul class="list" data-phase="c1">
+      <li class="item" data-id="creature-commandos-s1" data-mins="175"><button class="checkbox"></button><div class="item-main"><span class="item-title">Creature Commandos (Сезон 1)</span><span class="item-ru">Отряд монстров</span><span class="badge anim">Анимация</span><span class="item-meta">2024</span></div><span class="item-runtime">2 ч 55 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Creature+Commandos+2024">IMDb</a></li>
+      <li class="item" data-id="superman-2025" data-mins="129"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman</span><span class="item-ru">Супермен</span><span class="badge movie">Фильм</span><span class="item-meta">2025</span></div><span class="item-runtime">2 ч 09 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+2025">IMDb</a></li>
+      <li class="item" data-id="peacemaker-s2" data-mins="330"><button class="checkbox"></button><div class="item-main"><span class="item-title">Peacemaker (Сезон 2)</span><span class="item-ru">Миротворец</span><span class="badge tv">Сериал</span><span class="item-meta">2025</span></div><span class="item-runtime">5 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Peacemaker+season+2">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Грядущее</span></div>
+    <ul class="list">
+      <li class="item" data-id="supergirl-2026" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">Supergirl</span><span class="item-ru">Супергёрл</span><span class="badge soon">Скоро</span><span class="item-meta">2026</span></div><span class="item-runtime">26 июня</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Supergirl+2026">IMDb</a></li>
+      <li class="item" data-id="lanterns-2026" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">Lanterns (Сезон 1)</span><span class="item-ru">Фонари</span><span class="badge soon">Скоро</span><span class="item-meta">2026</span></div><span class="item-runtime">сериал</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Lanterns+DC+series">IMDb</a></li>
+      <li class="item" data-id="clayface-2026" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">Clayface</span><span class="item-ru">Глиноликий</span><span class="badge soon">Скоро</span><span class="item-meta">2026</span></div><span class="item-runtime">осень</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Clayface+DC+film">IMDb</a></li>
+      <li class="item" data-id="creature-commandos-s2" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">Creature Commandos (Сезон 2)</span><span class="item-ru">Отряд монстров</span><span class="badge soon">Скоро</span><span class="item-meta">2026</span></div><span class="item-runtime">анимация</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Creature+Commandos">IMDb</a></li>
+      <li class="item" data-id="man-of-tomorrow" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">Man of Tomorrow</span><span class="item-ru">Человек завтрашнего дня</span><span class="badge soon">Скоро</span><span class="item-meta">2027</span></div><span class="item-runtime">9 июля</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Man+of+Tomorrow+Superman">IMDb</a></li>
+    </ul>
+
+  </div>
+
+  <!-- ========================= DCEU 2013–2023 ========================= -->
+  <div id="dceu-view">
+    <div class="total-banner">
+      <span class="total-banner-label">Общая длительность DCEU:</span>
+      <span class="total-banner-value" id="dceu-total"></span>
+    </div>
+    <p class="count"><span id="dceu-count"></span></p>
+    <div class="retro-note">
+      <strong>DCEU</strong> — DC Extended Universe, шла с 2013 по 2023 год и завершилась с «Аквамен и потерянное царство». «Лига справедливости Зака Снайдера» (2021) — режиссёрская версия фильма 2017 года; засчитана как отдельный пункт.
+    </div>
+
+    <div class="phase"><span>Зарождение вселенной (2013–2017)</span><span class="phase-total" data-phase-id="dceu-1"></span></div>
+    <ul class="list" data-phase="dceu-1">
+      <li class="item" data-id="man-of-steel" data-mins="143"><button class="checkbox"></button><div class="item-main"><span class="item-title">Man of Steel</span><span class="item-ru">Человек из стали</span><span class="badge movie">Фильм</span><span class="item-meta">2013</span></div><span class="item-runtime">2 ч 23 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Man+of+Steel+2013">IMDb</a></li>
+      <li class="item" data-id="bvs" data-mins="151"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman v Superman: Dawn of Justice</span><span class="item-ru">Бэтмен против Супермена: На заре справедливости</span><span class="badge movie">Фильм</span><span class="item-meta">2016</span></div><span class="item-runtime">2 ч 31 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+v+Superman">IMDb</a></li>
+      <li class="item" data-id="suicide-squad" data-mins="123"><button class="checkbox"></button><div class="item-main"><span class="item-title">Suicide Squad</span><span class="item-ru">Отряд самоубийц</span><span class="badge movie">Фильм</span><span class="item-meta">2016</span></div><span class="item-runtime">2 ч 03 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Suicide+Squad+2016">IMDb</a></li>
+      <li class="item" data-id="wonder-woman" data-mins="141"><button class="checkbox"></button><div class="item-main"><span class="item-title">Wonder Woman</span><span class="item-ru">Чудо-женщина</span><span class="badge movie">Фильм</span><span class="item-meta">2017</span></div><span class="item-runtime">2 ч 21 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Wonder+Woman+2017">IMDb</a></li>
+      <li class="item" data-id="justice-league" data-mins="120"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League</span><span class="item-ru">Лига справедливости</span><span class="badge movie">Фильм</span><span class="item-meta">2017</span></div><span class="item-runtime">2 ч 00 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+2017">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Расширение (2018–2021)</span><span class="phase-total" data-phase-id="dceu-2"></span></div>
+    <ul class="list" data-phase="dceu-2">
+      <li class="item" data-id="aquaman" data-mins="143"><button class="checkbox"></button><div class="item-main"><span class="item-title">Aquaman</span><span class="item-ru">Аквамен</span><span class="badge movie">Фильм</span><span class="item-meta">2018</span></div><span class="item-runtime">2 ч 23 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Aquaman+2018">IMDb</a></li>
+      <li class="item" data-id="shazam" data-mins="132"><button class="checkbox"></button><div class="item-main"><span class="item-title">Shazam!</span><span class="item-ru">Шазам!</span><span class="badge movie">Фильм</span><span class="item-meta">2019</span></div><span class="item-runtime">2 ч 12 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Shazam+2019">IMDb</a></li>
+      <li class="item" data-id="birds-of-prey" data-mins="109"><button class="checkbox"></button><div class="item-main"><span class="item-title">Birds of Prey</span><span class="item-ru">Хищные птицы</span><span class="badge movie">Фильм</span><span class="item-meta">2020</span></div><span class="item-runtime">1 ч 49 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Birds+of+Prey+2020">IMDb</a></li>
+      <li class="item" data-id="ww84" data-mins="151"><button class="checkbox"></button><div class="item-main"><span class="item-title">Wonder Woman 1984</span><span class="item-ru">Чудо-женщина 1984</span><span class="badge movie">Фильм</span><span class="item-meta">2020</span></div><span class="item-runtime">2 ч 31 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Wonder+Woman+1984">IMDb</a></li>
+      <li class="item" data-id="zsjl" data-mins="242"><button class="checkbox"></button><div class="item-main"><span class="item-title">Zack Snyder's Justice League</span><span class="item-ru">Лига справедливости Зака Снайдера</span><span class="badge special">Реж. версия</span><span class="item-meta">2021</span></div><span class="item-runtime">4 ч 02 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Zack+Snyders+Justice+League">IMDb</a></li>
+      <li class="item" data-id="the-suicide-squad" data-mins="132"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Suicide Squad</span><span class="item-ru">Отряд самоубийц: Миссия навылет</span><span class="badge movie">Фильм</span><span class="item-meta">2021</span></div><span class="item-runtime">2 ч 12 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Suicide+Squad+2021">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Закат вселенной (2022–2023)</span><span class="phase-total" data-phase-id="dceu-3"></span></div>
+    <ul class="list" data-phase="dceu-3">
+      <li class="item" data-id="peacemaker-s1" data-mins="330"><button class="checkbox"></button><div class="item-main"><span class="item-title">Peacemaker (Сезон 1)</span><span class="item-ru">Миротворец</span><span class="badge tv">Сериал</span><span class="item-meta">2022</span></div><span class="item-runtime">5 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Peacemaker+season+1">IMDb</a></li>
+      <li class="item" data-id="black-adam" data-mins="125"><button class="checkbox"></button><div class="item-main"><span class="item-title">Black Adam</span><span class="item-ru">Чёрный Адам</span><span class="badge movie">Фильм</span><span class="item-meta">2022</span></div><span class="item-runtime">2 ч 05 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Black+Adam+2022">IMDb</a></li>
+      <li class="item" data-id="shazam-2" data-mins="130"><button class="checkbox"></button><div class="item-main"><span class="item-title">Shazam! Fury of the Gods</span><span class="item-ru">Шазам! Ярость богов</span><span class="badge movie">Фильм</span><span class="item-meta">2023</span></div><span class="item-runtime">2 ч 10 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Shazam+Fury+of+the+Gods">IMDb</a></li>
+      <li class="item" data-id="the-flash" data-mins="144"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Flash</span><span class="item-ru">Флэш</span><span class="badge movie">Фильм</span><span class="item-meta">2023</span></div><span class="item-runtime">2 ч 24 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Flash+2023">IMDb</a></li>
+      <li class="item" data-id="blue-beetle" data-mins="127"><button class="checkbox"></button><div class="item-main"><span class="item-title">Blue Beetle</span><span class="item-ru">Синий жук</span><span class="badge movie">Фильм</span><span class="item-meta">2023</span></div><span class="item-runtime">2 ч 07 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Blue+Beetle+2023">IMDb</a></li>
+      <li class="item" data-id="aquaman-2" data-mins="124"><button class="checkbox"></button><div class="item-main"><span class="item-title">Aquaman and the Lost Kingdom</span><span class="item-ru">Аквамен и потерянное царство</span><span class="badge movie">Фильм</span><span class="item-meta">2023</span></div><span class="item-runtime">2 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Aquaman+and+the+Lost+Kingdom">IMDb</a></li>
+    </ul>
+
+  </div>
+
+  <!-- ========================= Вне вселенных (Elseworlds + Классика) ========================= -->
+  <div id="standalone-view" class="hidden">
+    <div class="total-banner">
+      <span class="total-banner-label">Общая длительность раздела:</span>
+      <span class="total-banner-value" id="standalone-total"></span>
+    </div>
+    <p class="count"><span id="standalone-count"></span></p>
+    <div class="retro-note">
+      <strong>Вне вселенных</strong> — фильмы, не входящие ни в DCEU, ни в DCU Джеймса Ганна. Сверху — современные самостоятельные истории (Elseworlds: трилогия Нолана, «Бэтмен» Ривза, дилогия о Джокере), ниже — классика до запуска общих вселенных. Вся полнометражная анимация и мультсериалы вынесены в отдельную вкладку «Анимация».
+    </div>
+
+    <div class="phase"><span>Современные отдельные фильмы</span></div>
+
+    <div class="phase"><span>Трилогия Нолана — Тёмный рыцарь</span><span class="phase-total" data-group-id="els-nolan"></span></div>
+    <ul class="list" data-group="els-nolan">
+      <li class="item" data-id="batman-begins" data-mins="140"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman Begins</span><span class="item-ru">Бэтмен: Начало</span><span class="badge movie">Фильм</span><span class="item-meta">2005</span></div><span class="item-runtime">2 ч 20 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Begins">IMDb</a></li>
+      <li class="item" data-id="dark-knight" data-mins="152"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Dark Knight</span><span class="item-ru">Тёмный рыцарь</span><span class="badge movie">Фильм</span><span class="item-meta">2008</span></div><span class="item-runtime">2 ч 32 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Dark+Knight+2008">IMDb</a></li>
+      <li class="item" data-id="dark-knight-rises" data-mins="165"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Dark Knight Rises</span><span class="item-ru">Тёмный рыцарь: Возрождение легенды</span><span class="badge movie">Фильм</span><span class="item-meta">2012</span></div><span class="item-runtime">2 ч 45 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Dark+Knight+Rises">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Бэтмен Мэтта Ривза</span><span class="phase-total" data-group-id="els-reeves"></span></div>
+    <ul class="list" data-group="els-reeves">
+      <li class="item" data-id="the-batman" data-mins="176"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Batman</span><span class="item-ru">Бэтмен</span><span class="badge movie">Фильм</span><span class="item-meta">2022</span></div><span class="item-runtime">2 ч 56 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Batman+2022">IMDb</a></li>
+      <li class="item" data-id="the-batman-2" data-mins="0" data-unreleased><button class="checkbox"></button><div class="item-main"><span class="item-title">The Batman — Part II</span><span class="item-ru">Бэтмен. Часть 2</span><span class="badge soon">Скоро</span><span class="item-meta">2027</span></div><span class="item-runtime">в работе</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Batman+Part+II">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Джокер Тодда Филлипса</span><span class="phase-total" data-group-id="els-joker"></span></div>
+    <ul class="list" data-group="els-joker">
+      <li class="item" data-id="joker" data-mins="122"><button class="checkbox"></button><div class="item-main"><span class="item-title">Joker</span><span class="item-ru">Джокер</span><span class="badge movie">Фильм</span><span class="item-meta">2019</span></div><span class="item-runtime">2 ч 02 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Joker+2019">IMDb</a></li>
+      <li class="item" data-id="joker-2" data-mins="138"><button class="checkbox"></button><div class="item-main"><span class="item-title">Joker: Folie à Deux</span><span class="item-ru">Джокер: Безумие на двоих</span><span class="badge movie">Фильм</span><span class="item-meta">2024</span></div><span class="item-runtime">2 ч 18 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Joker+Folie+a+Deux">IMDb</a></li>
+    </ul>
+
+
+    <div class="phase"><span>Прочие самостоятельные фильмы (Vertigo и др.)</span><span class="phase-total" data-group-id="els-other"></span></div>
+    <ul class="list" data-group="els-other">
+      <li class="item" data-id="road-to-perdition" data-mins="117"><button class="checkbox"></button><div class="item-main"><span class="item-title">Road to Perdition</span><span class="item-ru">Проклятый путь</span><span class="badge movie">Фильм</span><span class="item-meta">2002</span></div><span class="item-runtime">1 ч 57 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Road+to+Perdition">IMDb</a></li>
+      <li class="item" data-id="constantine-2005" data-mins="121"><button class="checkbox"></button><div class="item-main"><span class="item-title">Constantine</span><span class="item-ru">Константин: Повелитель тьмы</span><span class="badge movie">Фильм</span><span class="item-meta">2005</span></div><span class="item-runtime">2 ч 01 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Constantine+2005">IMDb</a></li>
+      <li class="item" data-id="history-of-violence" data-mins="96"><button class="checkbox"></button><div class="item-main"><span class="item-title">A History of Violence</span><span class="item-ru">Оправданная жестокость</span><span class="badge movie">Фильм</span><span class="item-meta">2005</span></div><span class="item-runtime">1 ч 36 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=A+History+of+Violence">IMDb</a></li>
+      <li class="item" data-id="v-for-vendetta" data-mins="132"><button class="checkbox"></button><div class="item-main"><span class="item-title">V for Vendetta</span><span class="item-ru">«V» значит вендетта</span><span class="badge movie">Фильм</span><span class="item-meta">2005</span></div><span class="item-runtime">2 ч 12 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=V+for+Vendetta">IMDb</a></li>
+      <li class="item" data-id="watchmen-2009" data-mins="162"><button class="checkbox"></button><div class="item-main"><span class="item-title">Watchmen</span><span class="item-ru">Хранители</span><span class="badge movie">Фильм</span><span class="item-meta">2009</span></div><span class="item-runtime">2 ч 42 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Watchmen+2009">IMDb</a></li>
+      <li class="item" data-id="the-losers" data-mins="97"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Losers</span><span class="item-ru">Лузеры</span><span class="badge movie">Фильм</span><span class="item-meta">2010</span></div><span class="item-runtime">1 ч 37 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Losers+2010">IMDb</a></li>
+      <li class="item" data-id="red-2010" data-mins="111"><button class="checkbox"></button><div class="item-main"><span class="item-title">RED</span><span class="item-ru">РЭД</span><span class="badge movie">Фильм</span><span class="item-meta">2010</span></div><span class="item-runtime">1 ч 51 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=RED+2010+Bruce+Willis">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Классика DC</span></div>
+    <div class="phase"><span>Эра Доннера — Супермен (1978–2006)</span><span class="phase-total" data-group-id="cl-donner"></span></div>
+    <ul class="list" data-group="cl-donner">
+      <li class="item" data-id="superman-1978" data-mins="143"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman</span><span class="item-ru">Супермен</span><span class="badge movie">Фильм</span><span class="item-meta">1978</span></div><span class="item-runtime">2 ч 23 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+1978">IMDb</a></li>
+      <li class="item" data-id="superman-2" data-mins="127"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman II</span><span class="item-ru">Супермен 2</span><span class="badge movie">Фильм</span><span class="item-meta">1980</span></div><span class="item-runtime">2 ч 07 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+II+1980">IMDb</a></li>
+      <li class="item" data-id="superman-3" data-mins="125"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman III</span><span class="item-ru">Супермен 3</span><span class="badge movie">Фильм</span><span class="item-meta">1983</span></div><span class="item-runtime">2 ч 05 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+III+1983">IMDb</a></li>
+      <li class="item" data-id="supergirl-1984" data-mins="124"><button class="checkbox"></button><div class="item-main"><span class="item-title">Supergirl</span><span class="item-ru">Супердевушка</span><span class="badge movie">Фильм</span><span class="item-meta">1984</span></div><span class="item-runtime">2 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Supergirl+1984">IMDb</a></li>
+      <li class="item" data-id="superman-4" data-mins="90"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman IV: The Quest for Peace</span><span class="item-ru">Супермен 4: В поисках мира</span><span class="badge movie">Фильм</span><span class="item-meta">1987</span></div><span class="item-runtime">1 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+IV">IMDb</a></li>
+      <li class="item" data-id="superman-returns" data-mins="154"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman Returns</span><span class="item-ru">Возвращение Супермена</span><span class="badge movie">Фильм</span><span class="item-meta">2006</span></div><span class="item-runtime">2 ч 34 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+Returns+2006">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Эра Бёртона / Шумахера — Бэтмен (1989–1997)</span><span class="phase-total" data-group-id="cl-burton"></span></div>
+    <ul class="list" data-group="cl-burton">
+      <li class="item" data-id="batman-1989" data-mins="126"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman</span><span class="item-ru">Бэтмен</span><span class="badge movie">Фильм</span><span class="item-meta">1989</span></div><span class="item-runtime">2 ч 06 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+1989">IMDb</a></li>
+      <li class="item" data-id="batman-returns" data-mins="126"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman Returns</span><span class="item-ru">Бэтмен возвращается</span><span class="badge movie">Фильм</span><span class="item-meta">1992</span></div><span class="item-runtime">2 ч 06 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Returns+1992">IMDb</a></li>
+      <li class="item" data-id="batman-forever" data-mins="121"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman Forever</span><span class="item-ru">Бэтмен навсегда</span><span class="badge movie">Фильм</span><span class="item-meta">1995</span></div><span class="item-runtime">2 ч 01 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Forever+1995">IMDb</a></li>
+      <li class="item" data-id="batman-robin" data-mins="125"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman & Robin</span><span class="item-ru">Бэтмен и Робин</span><span class="badge movie">Фильм</span><span class="item-meta">1997</span></div><span class="item-runtime">2 ч 05 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+and+Robin+1997">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Прочая классика</span><span class="phase-total" data-group-id="cl-other"></span></div>
+    <ul class="list" data-group="cl-other">
+      <li class="item" data-id="swamp-thing-1982" data-mins="91"><button class="checkbox"></button><div class="item-main"><span class="item-title">Swamp Thing</span><span class="item-ru">Болотная тварь</span><span class="badge movie">Фильм</span><span class="item-meta">1982</span></div><span class="item-runtime">1 ч 31 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Swamp+Thing+1982">IMDb</a></li>
+      <li class="item" data-id="steel" data-mins="97"><button class="checkbox"></button><div class="item-main"><span class="item-title">Steel</span><span class="item-ru">Стальной</span><span class="badge movie">Фильм</span><span class="item-meta">1997</span></div><span class="item-runtime">1 ч 37 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Steel+1997+DC">IMDb</a></li>
+      <li class="item" data-id="catwoman" data-mins="104"><button class="checkbox"></button><div class="item-main"><span class="item-title">Catwoman</span><span class="item-ru">Женщина-кошка</span><span class="badge movie">Фильм</span><span class="item-meta">2004</span></div><span class="item-runtime">1 ч 44 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Catwoman+2004">IMDb</a></li>
+      <li class="item" data-id="jonah-hex" data-mins="81"><button class="checkbox"></button><div class="item-main"><span class="item-title">Jonah Hex</span><span class="item-ru">Джона Хекс</span><span class="badge movie">Фильм</span><span class="item-meta">2010</span></div><span class="item-runtime">1 ч 21 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Jonah+Hex+2010">IMDb</a></li>
+      <li class="item" data-id="batman-66-movie" data-mins="105"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Movie</span><span class="item-ru">Бэтмен: Кинофильм</span><span class="badge movie">Фильм</span><span class="item-meta">1966</span></div><span class="item-runtime">1 ч 45 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Movie+1966">IMDb</a></li>
+      <li class="item" data-id="green-lantern" data-mins="114"><button class="checkbox"></button><div class="item-main"><span class="item-title">Green Lantern</span><span class="item-ru">Зелёный Фонарь</span><span class="badge movie">Фильм</span><span class="item-meta">2011</span></div><span class="item-runtime">1 ч 54 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Green+Lantern+2011">IMDb</a></li>
+    </ul>
+
+
+  </div>
+
+  <!-- ========================= Сериалы ========================= -->
+  <div id="tv-view" class="hidden">
+    <div class="total-banner">
+      <span class="total-banner-label">Общая длительность сериалов:</span>
+      <span class="total-banner-value" id="tv-total"></span>
+    </div>
+    <p class="count"><span id="tv-count"></span></p>
+    <div class="retro-note">
+      <strong>Сериалы</strong> — телевизионный пласт DC: «Тайны Смолвиля», вся вселенная Стрелы (Arrowverse), современные шоу (Gotham, Titans, Doom Patrol, Lucifer и др.) и классика. Хронометраж — это <strong>приблизительная суммарная длина всех сезонов</strong> (по ~42 мин на серию), а не точные данные по каждому эпизоду.
+    </div>
+
+    <div class="phase"><span>Тайны Смолвиля</span><span class="phase-total" data-group-id="tv-smallville"></span></div>
+    <ul class="list" data-group="tv-smallville">
+      <li class="item" data-id="smallville" data-mins="9374"><button class="checkbox"></button><div class="item-main"><span class="item-title">Smallville</span><span class="item-ru">Тайны Смолвиля</span><span class="badge tv">10 сезонов</span><span class="item-meta">2001–2011</span></div><span class="item-runtime">~156 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Smallville">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Вселенная Стрелы (Arrowverse, The CW)</span><span class="phase-total" data-group-id="tv-arrowverse"></span></div>
+    <ul class="list" data-group="tv-arrowverse">
+      <li class="item" data-id="arrow" data-mins="7140"><button class="checkbox"></button><div class="item-main"><span class="item-title">Arrow</span><span class="item-ru">Стрела</span><span class="badge tv">8 сезонов</span><span class="item-meta">2012–2020</span></div><span class="item-runtime">~119 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Arrow+2012+series">IMDb</a></li>
+      <li class="item" data-id="constantine-tv" data-mins="546"><button class="checkbox"></button><div class="item-main"><span class="item-title">Constantine</span><span class="item-ru">Константин</span><span class="badge tv">1 сезон</span><span class="item-meta">2014–2015</span></div><span class="item-runtime">~9 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Constantine+2014+series">IMDb</a></li>
+      <li class="item" data-id="flash-tv" data-mins="7728"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Flash</span><span class="item-ru">Флэш</span><span class="badge tv">9 сезонов</span><span class="item-meta">2014–2023</span></div><span class="item-runtime">~129 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Flash+2014+series">IMDb</a></li>
+      <li class="item" data-id="supergirl-tv" data-mins="5292"><button class="checkbox"></button><div class="item-main"><span class="item-title">Supergirl</span><span class="item-ru">Супергёрл</span><span class="badge tv">6 сезонов</span><span class="item-meta">2015–2021</span></div><span class="item-runtime">~88 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Supergirl+2015+series">IMDb</a></li>
+      <li class="item" data-id="legends" data-mins="4620"><button class="checkbox"></button><div class="item-main"><span class="item-title">DC's Legends of Tomorrow</span><span class="item-ru">Легенды завтрашнего дня</span><span class="badge tv">7 сезонов</span><span class="item-meta">2016–2022</span></div><span class="item-runtime">~77 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Legends+of+Tomorrow">IMDb</a></li>
+      <li class="item" data-id="black-lightning" data-mins="2436"><button class="checkbox"></button><div class="item-main"><span class="item-title">Black Lightning</span><span class="item-ru">Чёрная молния</span><span class="badge tv">4 сезона</span><span class="item-meta">2018–2021</span></div><span class="item-runtime">~41 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Black+Lightning+series">IMDb</a></li>
+      <li class="item" data-id="batwoman" data-mins="2142"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batwoman</span><span class="item-ru">Бэтвумен</span><span class="badge tv">3 сезона</span><span class="item-meta">2019–2022</span></div><span class="item-runtime">~36 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batwoman+series">IMDb</a></li>
+      <li class="item" data-id="superman-lois" data-mins="2226"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman &amp; Lois</span><span class="item-ru">Супермен и Лоис</span><span class="badge tv">4 сезона</span><span class="item-meta">2021–2024</span></div><span class="item-runtime">~37 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+and+Lois+series">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Прочие современные сериалы</span><span class="phase-total" data-group-id="tv-modern"></span></div>
+    <ul class="list" data-group="tv-modern">
+      <li class="item" data-id="gotham" data-mins="4300"><button class="checkbox"></button><div class="item-main"><span class="item-title">Gotham</span><span class="item-ru">Готэм</span><span class="badge tv">5 сезонов</span><span class="item-meta">2014–2019</span></div><span class="item-runtime">~72 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Gotham+series">IMDb</a></li>
+      <li class="item" data-id="lucifer" data-mins="3999"><button class="checkbox"></button><div class="item-main"><span class="item-title">Lucifer</span><span class="item-ru">Люцифер</span><span class="badge tv">6 сезонов</span><span class="item-meta">2016–2021</span></div><span class="item-runtime">~67 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Lucifer+series+2016">IMDb</a></li>
+      <li class="item" data-id="krypton" data-mins="860"><button class="checkbox"></button><div class="item-main"><span class="item-title">Krypton</span><span class="item-ru">Криптон</span><span class="badge tv">2 сезона</span><span class="item-meta">2018–2019</span></div><span class="item-runtime">~14 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Krypton+series">IMDb</a></li>
+      <li class="item" data-id="titans" data-mins="2205"><button class="checkbox"></button><div class="item-main"><span class="item-title">Titans</span><span class="item-ru">Титаны</span><span class="badge tv">4 сезона</span><span class="item-meta">2018–2023</span></div><span class="item-runtime">~37 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Titans+2018+series">IMDb</a></li>
+      <li class="item" data-id="doom-patrol" data-mins="2208"><button class="checkbox"></button><div class="item-main"><span class="item-title">Doom Patrol</span><span class="item-ru">Роковой патруль</span><span class="badge tv">4 сезона</span><span class="item-meta">2019–2023</span></div><span class="item-runtime">~37 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Doom+Patrol+series">IMDb</a></li>
+      <li class="item" data-id="swamp-thing-tv" data-mins="500"><button class="checkbox"></button><div class="item-main"><span class="item-title">Swamp Thing</span><span class="item-ru">Болотная тварь</span><span class="badge tv">1 сезон</span><span class="item-meta">2019</span></div><span class="item-runtime">~8 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Swamp+Thing+2019+series">IMDb</a></li>
+      <li class="item" data-id="pennyworth" data-mins="1500"><button class="checkbox"></button><div class="item-main"><span class="item-title">Pennyworth</span><span class="item-ru">Пенниуорт</span><span class="badge tv">3 сезона</span><span class="item-meta">2019–2022</span></div><span class="item-runtime">~25 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Pennyworth+series">IMDb</a></li>
+      <li class="item" data-id="watchmen-hbo" data-mins="540"><button class="checkbox"></button><div class="item-main"><span class="item-title">Watchmen</span><span class="item-ru">Хранители</span><span class="badge tv">1 сезон</span><span class="item-meta">2019</span></div><span class="item-runtime">~9 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Watchmen+HBO+series">IMDb</a></li>
+      <li class="item" data-id="stargirl" data-mins="1677"><button class="checkbox"></button><div class="item-main"><span class="item-title">Stargirl</span><span class="item-ru">Старгёрл</span><span class="badge tv">3 сезона</span><span class="item-meta">2020–2022</span></div><span class="item-runtime">~28 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Stargirl+DC+series">IMDb</a></li>
+      <li class="item" data-id="sandman" data-mins="1035"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Sandman</span><span class="item-ru">Песочный человек</span><span class="badge tv">2 сезона</span><span class="item-meta">2022–2025</span></div><span class="item-runtime">~17 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Sandman+Netflix">IMDb</a></li>
+      <li class="item" data-id="izombie" data-mins="2982"><button class="checkbox"></button><div class="item-main"><span class="item-title">iZombie</span><span class="item-ru">Я — зомби</span><span class="badge tv">5 сезонов</span><span class="item-meta">2015–2019</span></div><span class="item-runtime">~50 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=iZombie+series">IMDb</a></li>
+      <li class="item" data-id="preacher" data-mins="2150"><button class="checkbox"></button><div class="item-main"><span class="item-title">Preacher</span><span class="item-ru">Проповедник</span><span class="badge tv">4 сезона</span><span class="item-meta">2016–2019</span></div><span class="item-runtime">~36 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Preacher+series+AMC">IMDb</a></li>
+      <li class="item" data-id="y-last-man" data-mins="500"><button class="checkbox"></button><div class="item-main"><span class="item-title">Y: The Last Man</span><span class="item-ru">Y: Последний мужчина</span><span class="badge tv">1 сезон</span><span class="item-meta">2021</span></div><span class="item-runtime">~8 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Y+The+Last+Man+series">IMDb</a></li>
+      <li class="item" data-id="sweet-tooth" data-mins="1200"><button class="checkbox"></button><div class="item-main"><span class="item-title">Sweet Tooth</span><span class="item-ru">Сладкоежка</span><span class="badge tv">3 сезона</span><span class="item-meta">2021–2024</span></div><span class="item-runtime">~20 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Sweet+Tooth+Netflix">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Классические сериалы</span><span class="phase-total" data-group-id="tv-classic"></span></div>
+    <ul class="list" data-group="tv-classic">
+      <li class="item" data-id="adventures-superman" data-mins="2600"><button class="checkbox"></button><div class="item-main"><span class="item-title">Adventures of Superman</span><span class="item-ru">Приключения Супермена</span><span class="badge tv">6 сезонов</span><span class="item-meta">1952–1958</span></div><span class="item-runtime">~43 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Adventures+of+Superman+1952">IMDb</a></li>
+      <li class="item" data-id="batman-66" data-mins="3000"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman</span><span class="item-ru">Бэтмен (1966)</span><span class="badge tv">3 сезона</span><span class="item-meta">1966–1968</span></div><span class="item-runtime">~50 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+1966+series">IMDb</a></li>
+      <li class="item" data-id="wonder-woman-77" data-mins="2832"><button class="checkbox"></button><div class="item-main"><span class="item-title">Wonder Woman</span><span class="item-ru">Чудо-женщина (1975)</span><span class="badge tv">3 сезона</span><span class="item-meta">1975–1979</span></div><span class="item-runtime">~47 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Wonder+Woman+1975+series">IMDb</a></li>
+      <li class="item" data-id="flash-90" data-mins="990"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Flash</span><span class="item-ru">Флэш (1990)</span><span class="badge tv">1 сезон</span><span class="item-meta">1990–1991</span></div><span class="item-runtime">~16 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Flash+1990+series">IMDb</a></li>
+      <li class="item" data-id="lois-clark" data-mins="3915"><button class="checkbox"></button><div class="item-main"><span class="item-title">Lois &amp; Clark: The New Adventures of Superman</span><span class="item-ru">Лоис и Кларк: Новые приключения Супермена</span><span class="badge tv">4 сезона</span><span class="item-meta">1993–1997</span></div><span class="item-runtime">~65 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Lois+and+Clark+series">IMDb</a></li>
+      <li class="item" data-id="superboy" data-mins="2300"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superboy</span><span class="item-ru">Супербой</span><span class="badge tv">4 сезона</span><span class="item-meta">1988–1992</span></div><span class="item-runtime">~38 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superboy+1988+series">IMDb</a></li>
+      <li class="item" data-id="birds-of-prey-tv" data-mins="546"><button class="checkbox"></button><div class="item-main"><span class="item-title">Birds of Prey</span><span class="item-ru">Хищные птицы (2002)</span><span class="badge tv">1 сезон</span><span class="item-meta">2002–2003</span></div><span class="item-runtime">~9 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Birds+of+Prey+2002+series">IMDb</a></li>
+    </ul>
+
+  </div>
+
+  <!-- ========================= Анимация ========================= -->
+  <div id="anim-view" class="hidden">
+    <div class="total-banner">
+      <span class="total-banner-label">Общая длительность анимации:</span>
+      <span class="total-banner-value" id="anim-total"></span>
+    </div>
+    <p class="count"><span id="anim-count"></span></p>
+    <div class="retro-note">
+      Полнометражная анимация и мультсериалы DC. Сериалы и старые мультфильмы не привязаны к игровым вселенным; DCAMU и Tomorrowverse — две связные анимационные киновселенные. Хронометраж сериалов приблизительный (суммарно по всем сезонам, ~22 мин на серию).
+    </div>
+
+    <div class="phase"><span>DC Animated Universe (вселенная Тимма)</span><span class="phase-total" data-group-id="anim-dcau"></span></div>
+    <ul class="list" data-group="anim-dcau">
+      <li class="item" data-id="btas" data-mins="1870"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Animated Series</span><span class="item-ru">Бэтмен (анимация)</span><span class="badge anim">Анимация</span><span class="item-meta">1992–1995</span></div><span class="item-runtime">~31 ч 10 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Animated+Series">IMDb</a></li>
+      <li class="item" data-id="superman-tas" data-mins="1188"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman: The Animated Series</span><span class="item-ru">Супермен (анимация)</span><span class="badge anim">Анимация</span><span class="item-meta">1996–2000</span></div><span class="item-runtime">~19 ч 48 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+The+Animated+Series">IMDb</a></li>
+      <li class="item" data-id="new-batman-adv" data-mins="528"><button class="checkbox"></button><div class="item-main"><span class="item-title">The New Batman Adventures</span><span class="item-ru">Новые приключения Бэтмена</span><span class="badge anim">Анимация</span><span class="item-meta">1997–1999</span></div><span class="item-runtime">~8 ч 48 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+New+Batman+Adventures">IMDb</a></li>
+      <li class="item" data-id="batman-beyond-tas" data-mins="1144"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman Beyond</span><span class="item-ru">Бэтмен будущего</span><span class="badge anim">Анимация</span><span class="item-meta">1999–2001</span></div><span class="item-runtime">~19 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Beyond">IMDb</a></li>
+      <li class="item" data-id="static-shock" data-mins="1144"><button class="checkbox"></button><div class="item-main"><span class="item-title">Static Shock</span><span class="item-ru">Статик</span><span class="badge anim">Анимация</span><span class="item-meta">2000–2004</span></div><span class="item-runtime">~19 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Static+Shock">IMDb</a></li>
+      <li class="item" data-id="justice-league-tas" data-mins="1144"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League</span><span class="item-ru">Лига справедливости</span><span class="badge anim">Анимация</span><span class="item-meta">2001–2004</span></div><span class="item-runtime">~19 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League">IMDb</a></li>
+      <li class="item" data-id="jlu" data-mins="858"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League Unlimited</span><span class="item-ru">Лига справедливости: Без границ</span><span class="badge anim">Анимация</span><span class="item-meta">2004–2006</span></div><span class="item-runtime">~14 ч 18 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Unlimited">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Прочие анимационные сериалы</span><span class="phase-total" data-group-id="anim-tv"></span></div>
+    <ul class="list" data-group="anim-tv">
+      <li class="item" data-id="teen-titans-03" data-mins="1430"><button class="checkbox"></button><div class="item-main"><span class="item-title">Teen Titans</span><span class="item-ru">Юные титаны</span><span class="badge anim">Анимация</span><span class="item-meta">2003–2006</span></div><span class="item-runtime">~23 ч 50 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Teen+Titans">IMDb</a></li>
+      <li class="item" data-id="the-batman-tas" data-mins="1430"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Batman</span><span class="item-ru">Бэтмен (2004)</span><span class="badge anim">Анимация</span><span class="item-meta">2004–2008</span></div><span class="item-runtime">~23 ч 50 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Batman">IMDb</a></li>
+      <li class="item" data-id="legion-tas" data-mins="572"><button class="checkbox"></button><div class="item-main"><span class="item-title">Legion of Super Heroes</span><span class="item-ru">Легион супергероев</span><span class="badge anim">Анимация</span><span class="item-meta">2006–2008</span></div><span class="item-runtime">~9 ч 32 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Legion+of+Super+Heroes">IMDb</a></li>
+      <li class="item" data-id="brave-bold" data-mins="1430"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Brave and the Bold</span><span class="item-ru">Бэтмен: Отважный и смелый</span><span class="badge anim">Анимация</span><span class="item-meta">2008–2011</span></div><span class="item-runtime">~23 ч 50 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Brave+and+the+Bold">IMDb</a></li>
+      <li class="item" data-id="young-justice" data-mins="2254"><button class="checkbox"></button><div class="item-main"><span class="item-title">Young Justice</span><span class="item-ru">Юная Лига Справедливости</span><span class="badge anim">Анимация</span><span class="item-meta">2010–2022</span></div><span class="item-runtime">~37 ч 34 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Young+Justice">IMDb</a></li>
+      <li class="item" data-id="gl-tas" data-mins="572"><button class="checkbox"></button><div class="item-main"><span class="item-title">Green Lantern: The Animated Series</span><span class="item-ru">Зелёный Фонарь (анимация)</span><span class="badge anim">Анимация</span><span class="item-meta">2011–2013</span></div><span class="item-runtime">~9 ч 32 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Green+Lantern+The+Animated+Series">IMDb</a></li>
+      <li class="item" data-id="beware-batman" data-mins="572"><button class="checkbox"></button><div class="item-main"><span class="item-title">Beware the Batman</span><span class="item-ru">Берегись Бэтмена</span><span class="badge anim">Анимация</span><span class="item-meta">2013–2014</span></div><span class="item-runtime">~9 ч 32 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Beware+the+Batman">IMDb</a></li>
+      <li class="item" data-id="jl-action" data-mins="572"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League Action</span><span class="item-ru">Лига справедливости в действии</span><span class="badge anim">Анимация</span><span class="item-meta">2016–2018</span></div><span class="item-runtime">~9 ч 32 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Action">IMDb</a></li>
+      <li class="item" data-id="teen-titans-go" data-mins="4400"><button class="checkbox"></button><div class="item-main"><span class="item-title">Teen Titans Go!</span><span class="item-ru">Юные титаны, вперёд!</span><span class="badge anim">Анимация</span><span class="item-meta">2013–…</span></div><span class="item-runtime">~73 ч 20 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Teen+Titans+Go">IMDb</a></li>
+      <li class="item" data-id="dcshg" data-mins="660"><button class="checkbox"></button><div class="item-main"><span class="item-title">DC Super Hero Girls</span><span class="item-ru">Супердевочки DC</span><span class="badge anim">Анимация</span><span class="item-meta">2019–2021</span></div><span class="item-runtime">~11 ч</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=DC+Super+Hero+Girls">IMDb</a></li>
+      <li class="item" data-id="harley-quinn" data-mins="1050"><button class="checkbox"></button><div class="item-main"><span class="item-title">Harley Quinn</span><span class="item-ru">Харли Квинн</span><span class="badge anim">Анимация</span><span class="item-meta">2019–…</span></div><span class="item-runtime">~17 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Harley+Quinn">IMDb</a></li>
+      <li class="item" data-id="my-adventures-superman" data-mins="460"><button class="checkbox"></button><div class="item-main"><span class="item-title">My Adventures with Superman</span><span class="item-ru">Мои приключения с Суперменом</span><span class="badge anim">Анимация</span><span class="item-meta">2023–…</span></div><span class="item-runtime">~7 ч 40 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=My+Adventures+with+Superman">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>DCAMU — анимационная киновселенная (2013–2020)</span><span class="phase-total" data-group-id="anim-dcamu"></span></div>
+    <ul class="list" data-group="anim-dcamu">
+      <li class="item" data-id="flashpoint" data-mins="81"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: The Flashpoint Paradox</span><span class="item-ru">Лига справедливости: Парадокс источника конфликта</span><span class="badge anim">Анимация</span><span class="item-meta">2013</span></div><span class="item-runtime">1 ч 21 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+The+Flashpoint+Paradox">IMDb</a></li>
+      <li class="item" data-id="jl-war" data-mins="79"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: War</span><span class="item-ru">Лига справедливости: Война</span><span class="badge anim">Анимация</span><span class="item-meta">2014</span></div><span class="item-runtime">1 ч 19 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+War">IMDb</a></li>
+      <li class="item" data-id="son-of-batman" data-mins="74"><button class="checkbox"></button><div class="item-main"><span class="item-title">Son of Batman</span><span class="item-ru">Сын Бэтмена</span><span class="badge anim">Анимация</span><span class="item-meta">2014</span></div><span class="item-runtime">1 ч 14 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Son+of+Batman">IMDb</a></li>
+      <li class="item" data-id="throne-atlantis" data-mins="72"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Throne of Atlantis</span><span class="item-ru">Лига справедливости: Трон Атлантиды</span><span class="badge anim">Анимация</span><span class="item-meta">2015</span></div><span class="item-runtime">1 ч 12 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Throne+of+Atlantis">IMDb</a></li>
+      <li class="item" data-id="batman-vs-robin" data-mins="80"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman vs. Robin</span><span class="item-ru">Бэтмен против Робина</span><span class="badge anim">Анимация</span><span class="item-meta">2015</span></div><span class="item-runtime">1 ч 20 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+vs+Robin">IMDb</a></li>
+      <li class="item" data-id="batman-bad-blood" data-mins="72"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Bad Blood</span><span class="item-ru">Бэтмен: Дурная кровь</span><span class="badge anim">Анимация</span><span class="item-meta">2016</span></div><span class="item-runtime">1 ч 12 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Bad+Blood">IMDb</a></li>
+      <li class="item" data-id="jl-vs-teen-titans" data-mins="78"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League vs. Teen Titans</span><span class="item-ru">Лига справедливости против Юных титанов</span><span class="badge anim">Анимация</span><span class="item-meta">2016</span></div><span class="item-runtime">1 ч 18 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+vs+Teen+Titans">IMDb</a></li>
+      <li class="item" data-id="jl-dark" data-mins="75"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League Dark</span><span class="item-ru">Лига справедливости: Тьма</span><span class="badge anim">Анимация</span><span class="item-meta">2017</span></div><span class="item-runtime">1 ч 15 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Dark">IMDb</a></li>
+      <li class="item" data-id="judas-contract" data-mins="84"><button class="checkbox"></button><div class="item-main"><span class="item-title">Teen Titans: The Judas Contract</span><span class="item-ru">Юные титаны: Контракт Иуды</span><span class="badge anim">Анимация</span><span class="item-meta">2017</span></div><span class="item-runtime">1 ч 24 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Teen+Titans+The+Judas+Contract">IMDb</a></li>
+      <li class="item" data-id="suicide-squad-hell" data-mins="86"><button class="checkbox"></button><div class="item-main"><span class="item-title">Suicide Squad: Hell to Pay</span><span class="item-ru">Отряд самоубийц: Строгое наказание</span><span class="badge anim">Анимация</span><span class="item-meta">2018</span></div><span class="item-runtime">1 ч 26 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Suicide+Squad+Hell+to+Pay">IMDb</a></li>
+      <li class="item" data-id="death-of-superman" data-mins="81"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Death of Superman</span><span class="item-ru">Смерть Супермена</span><span class="badge anim">Анимация</span><span class="item-meta">2018</span></div><span class="item-runtime">1 ч 21 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Death+of+Superman">IMDb</a></li>
+      <li class="item" data-id="reign-supermen" data-mins="87"><button class="checkbox"></button><div class="item-main"><span class="item-title">Reign of the Supermen</span><span class="item-ru">Господство Суперменов</span><span class="badge anim">Анимация</span><span class="item-meta">2019</span></div><span class="item-runtime">1 ч 27 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Reign+of+the+Supermen">IMDb</a></li>
+      <li class="item" data-id="batman-hush" data-mins="82"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Hush</span><span class="item-ru">Бэтмен: Тихо</span><span class="badge anim">Анимация</span><span class="item-meta">2019</span></div><span class="item-runtime">1 ч 22 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Hush">IMDb</a></li>
+      <li class="item" data-id="ww-bloodlines" data-mins="83"><button class="checkbox"></button><div class="item-main"><span class="item-title">Wonder Woman: Bloodlines</span><span class="item-ru">Чудо-женщина: Узы крови</span><span class="badge anim">Анимация</span><span class="item-meta">2019</span></div><span class="item-runtime">1 ч 23 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Wonder+Woman+Bloodlines">IMDb</a></li>
+      <li class="item" data-id="apokolips-war" data-mins="90"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League Dark: Apokolips War</span><span class="item-ru">Лига справедливости: Тьма — Война Апоколипса</span><span class="badge anim">Анимация</span><span class="item-meta">2020</span></div><span class="item-runtime">1 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Dark+Apokolips+War">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Tomorrowverse (2020–2024)</span><span class="phase-total" data-group-id="anim-tomorrow"></span></div>
+    <ul class="list" data-group="anim-tomorrow">
+      <li class="item" data-id="superman-man-tomorrow" data-mins="84"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman: Man of Tomorrow</span><span class="item-ru">Супермен: Человек завтрашнего дня</span><span class="badge anim">Анимация</span><span class="item-meta">2020</span></div><span class="item-runtime">1 ч 24 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+Man+of+Tomorrow">IMDb</a></li>
+      <li class="item" data-id="justice-society-ww2" data-mins="84"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice Society: World War II</span><span class="item-ru">Общество справедливости: Вторая мировая</span><span class="badge anim">Анимация</span><span class="item-meta">2021</span></div><span class="item-runtime">1 ч 24 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+Society+World+War+II">IMDb</a></li>
+      <li class="item" data-id="long-halloween-1" data-mins="85"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Long Halloween, Part One</span><span class="item-ru">Бэтмен: Долгий Хэллоуин. Часть 1</span><span class="badge anim">Анимация</span><span class="item-meta">2021</span></div><span class="item-runtime">1 ч 25 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Long+Halloween+Part+One">IMDb</a></li>
+      <li class="item" data-id="long-halloween-2" data-mins="87"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Long Halloween, Part Two</span><span class="item-ru">Бэтмен: Долгий Хэллоуин. Часть 2</span><span class="badge anim">Анимация</span><span class="item-meta">2021</span></div><span class="item-runtime">1 ч 27 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Long+Halloween+Part+Two">IMDb</a></li>
+      <li class="item" data-id="injustice" data-mins="79"><button class="checkbox"></button><div class="item-main"><span class="item-title">Injustice</span><span class="item-ru">Несправедливость</span><span class="badge anim">Анимация</span><span class="item-meta">2021</span></div><span class="item-runtime">1 ч 19 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Injustice">IMDb</a></li>
+      <li class="item" data-id="gl-beware-power" data-mins="90"><button class="checkbox"></button><div class="item-main"><span class="item-title">Green Lantern: Beware My Power</span><span class="item-ru">Зелёный Фонарь: Берегись моей силы</span><span class="badge anim">Анимация</span><span class="item-meta">2022</span></div><span class="item-runtime">1 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Green+Lantern+Beware+My+Power">IMDb</a></li>
+      <li class="item" data-id="legion-film" data-mins="80"><button class="checkbox"></button><div class="item-main"><span class="item-title">Legion of Super-Heroes</span><span class="item-ru">Легион супергероев (фильм)</span><span class="badge anim">Анимация</span><span class="item-meta">2023</span></div><span class="item-runtime">1 ч 20 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Legion+of+SuperHeroes">IMDb</a></li>
+      <li class="item" data-id="jl-warworld" data-mins="90"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Warworld</span><span class="item-ru">Лига справедливости: Мир войны</span><span class="badge anim">Анимация</span><span class="item-meta">2023</span></div><span class="item-runtime">1 ч 30 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Warworld">IMDb</a></li>
+      <li class="item" data-id="crisis-1" data-mins="89"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Crisis on Infinite Earths Part One</span><span class="item-ru">Кризис на Бесконечных Землях. Часть 1</span><span class="badge anim">Анимация</span><span class="item-meta">2024</span></div><span class="item-runtime">1 ч 29 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Crisis+on+Infinite+Earths+Part+One">IMDb</a></li>
+      <li class="item" data-id="crisis-2" data-mins="89"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Crisis on Infinite Earths Part Two</span><span class="item-ru">Кризис на Бесконечных Землях. Часть 2</span><span class="badge anim">Анимация</span><span class="item-meta">2024</span></div><span class="item-runtime">1 ч 29 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Crisis+on+Infinite+Earths+Part+Two">IMDb</a></li>
+      <li class="item" data-id="crisis-3" data-mins="88"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Crisis on Infinite Earths Part Three</span><span class="item-ru">Кризис на Бесконечных Землях. Часть 3</span><span class="badge anim">Анимация</span><span class="item-meta">2024</span></div><span class="item-runtime">1 ч 28 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Crisis+on+Infinite+Earths+Part+Three">IMDb</a></li>
+    </ul>
+
+    <div class="phase"><span>Отдельные и классические мультфильмы</span><span class="phase-total" data-group-id="anim-films"></span></div>
+    <ul class="list" data-group="anim-films">
+      <li class="item" data-id="phantasm" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Mask of the Phantasm</span><span class="item-ru">Бэтмен: Маска фантазма</span><span class="badge anim">Анимация</span><span class="item-meta">1993</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Mask+of+the+Phantasm">IMDb</a></li>
+      <li class="item" data-id="subzero" data-mins="67"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman & Mr. Freeze: SubZero</span><span class="item-ru">Бэтмен и Мистер Фриз: Заморозка</span><span class="badge anim">Анимация</span><span class="item-meta">1998</span></div><span class="item-runtime">1 ч 07 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman++Mr+Freeze+SubZero">IMDb</a></li>
+      <li class="item" data-id="return-of-joker" data-mins="77"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman Beyond: Return of the Joker</span><span class="item-ru">Бэтмен будущего: Возвращение Джокера</span><span class="badge anim">Анимация</span><span class="item-meta">2000</span></div><span class="item-runtime">1 ч 17 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Beyond+Return+of+the+Joker">IMDb</a></li>
+      <li class="item" data-id="superman-doomsday" data-mins="75"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman: Doomsday</span><span class="item-ru">Супермен: Судный день</span><span class="badge anim">Анимация</span><span class="item-meta">2007</span></div><span class="item-runtime">1 ч 15 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+Doomsday">IMDb</a></li>
+      <li class="item" data-id="new-frontier" data-mins="75"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: The New Frontier</span><span class="item-ru">Лига справедливости: Новый барьер</span><span class="badge anim">Анимация</span><span class="item-meta">2008</span></div><span class="item-runtime">1 ч 15 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+The+New+Frontier">IMDb</a></li>
+      <li class="item" data-id="gotham-knight" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Gotham Knight</span><span class="item-ru">Бэтмен: Рыцарь Готэма</span><span class="badge anim">Анимация</span><span class="item-meta">2008</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Gotham+Knight">IMDb</a></li>
+      <li class="item" data-id="ww-2009" data-mins="74"><button class="checkbox"></button><div class="item-main"><span class="item-title">Wonder Woman</span><span class="item-ru">Чудо-женщина (анимация)</span><span class="badge anim">Анимация</span><span class="item-meta">2009</span></div><span class="item-runtime">1 ч 14 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Wonder+Woman">IMDb</a></li>
+      <li class="item" data-id="gl-first-flight" data-mins="77"><button class="checkbox"></button><div class="item-main"><span class="item-title">Green Lantern: First Flight</span><span class="item-ru">Зелёный Фонарь: Первый полёт</span><span class="badge anim">Анимация</span><span class="item-meta">2009</span></div><span class="item-runtime">1 ч 17 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Green+Lantern+First+Flight">IMDb</a></li>
+      <li class="item" data-id="public-enemies" data-mins="67"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman/Batman: Public Enemies</span><span class="item-ru">Супермен/Бэтмен: Враги общества</span><span class="badge anim">Анимация</span><span class="item-meta">2009</span></div><span class="item-runtime">1 ч 07 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=SupermanBatman+Public+Enemies">IMDb</a></li>
+      <li class="item" data-id="red-hood" data-mins="75"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Under the Red Hood</span><span class="item-ru">Бэтмен: Под красным колпаком</span><span class="badge anim">Анимация</span><span class="item-meta">2010</span></div><span class="item-runtime">1 ч 15 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Under+the+Red+Hood">IMDb</a></li>
+      <li class="item" data-id="all-star-superman" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">All-Star Superman</span><span class="item-ru">Сверхновый Супермен</span><span class="badge anim">Анимация</span><span class="item-meta">2011</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=AllStar+Superman">IMDb</a></li>
+      <li class="item" data-id="batman-year-one" data-mins="64"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Year One</span><span class="item-ru">Бэтмен: Год первый</span><span class="badge anim">Анимация</span><span class="item-meta">2011</span></div><span class="item-runtime">1 ч 04 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Year+One">IMDb</a></li>
+      <li class="item" data-id="superman-vs-elite" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman vs. The Elite</span><span class="item-ru">Супермен против Элиты</span><span class="badge anim">Анимация</span><span class="item-meta">2012</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+vs+The+Elite">IMDb</a></li>
+      <li class="item" data-id="dkr-1" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Dark Knight Returns, Part 1</span><span class="item-ru">Возвращение Тёмного рыцаря. Часть 1</span><span class="badge anim">Анимация</span><span class="item-meta">2012</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Dark+Knight+Returns+Part+1">IMDb</a></li>
+      <li class="item" data-id="dkr-2" data-mins="78"><button class="checkbox"></button><div class="item-main"><span class="item-title">The Dark Knight Returns, Part 2</span><span class="item-ru">Возвращение Тёмного рыцаря. Часть 2</span><span class="badge anim">Анимация</span><span class="item-meta">2013</span></div><span class="item-runtime">1 ч 18 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=The+Dark+Knight+Returns+Part+2">IMDb</a></li>
+      <li class="item" data-id="superman-unbound" data-mins="75"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman: Unbound</span><span class="item-ru">Супермен: Свободный</span><span class="badge anim">Анимация</span><span class="item-meta">2013</span></div><span class="item-runtime">1 ч 15 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+Unbound">IMDb</a></li>
+      <li class="item" data-id="gods-and-monsters" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">Justice League: Gods and Monsters</span><span class="item-ru">Лига справедливости: Боги и монстры</span><span class="badge anim">Анимация</span><span class="item-meta">2015</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Justice+League+Gods+and+Monsters">IMDb</a></li>
+      <li class="item" data-id="killing-joke" data-mins="76"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: The Killing Joke</span><span class="item-ru">Бэтмен: Убийственная шутка</span><span class="badge anim">Анимация</span><span class="item-meta">2016</span></div><span class="item-runtime">1 ч 16 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+The+Killing+Joke">IMDb</a></li>
+      <li class="item" data-id="gotham-by-gaslight" data-mins="78"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Gotham by Gaslight</span><span class="item-ru">Бэтмен: Готэм в газовом свете</span><span class="badge anim">Анимация</span><span class="item-meta">2018</span></div><span class="item-runtime">1 ч 18 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Gotham+by+Gaslight">IMDb</a></li>
+      <li class="item" data-id="red-son" data-mins="84"><button class="checkbox"></button><div class="item-main"><span class="item-title">Superman: Red Son</span><span class="item-ru">Супермен: Красный сын</span><span class="badge anim">Анимация</span><span class="item-meta">2020</span></div><span class="item-runtime">1 ч 24 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Superman+Red+Son">IMDb</a></li>
+      <li class="item" data-id="soul-of-dragon" data-mins="83"><button class="checkbox"></button><div class="item-main"><span class="item-title">Batman: Soul of the Dragon</span><span class="item-ru">Бэтмен: Душа дракона</span><span class="badge anim">Анимация</span><span class="item-meta">2021</span></div><span class="item-runtime">1 ч 23 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Batman+Soul+of+the+Dragon">IMDb</a></li>
+      <li class="item" data-id="catwoman-hunted" data-mins="77"><button class="checkbox"></button><div class="item-main"><span class="item-title">Catwoman: Hunted</span><span class="item-ru">Женщина-кошка: Охота</span><span class="badge anim">Анимация</span><span class="item-meta">2022</span></div><span class="item-runtime">1 ч 17 м</span><a class="imdb-link" target="_blank" href="https://www.imdb.com/find/?q=Catwoman+Hunted">IMDb</a></li>
+    </ul>
+
+  </div>
+
+  <!-- ========================= Достижения ========================= -->
+  <div id="achievements-view" class="hidden">
+    <div class="hero-card">
+      <div class="hero-rank-label">Твой ранг</div>
+      <div class="hero-rank-title" id="hero-rank">Обыватель Метрополиса</div>
+      <div class="hero-rank-sub" id="hero-rank-sub">Слышала про Супермена в новостях</div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="stat-watched">0</div>
+          <div class="hero-stat-label">Просмотрено</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="stat-dceu">0%</div>
+          <div class="hero-stat-label">DCEU (проекты)</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="stat-hours">0</div>
+          <div class="hero-stat-label">Часов просмотра</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="stat-percent">0%</div>
+          <div class="hero-stat-label">Общий прогресс</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="stat-avg-rating">—</div>
+          <div class="hero-stat-label">Средняя оценка</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-cols">
+      <div class="progress-col">
+    <div class="progress-section">
+      <div class="progress-section-title">📊 Прогресс по разделам</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">DCEU</span><span class="progress-meta" id="prog-dceu-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-dceu" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Вне вселенных</span><span class="progress-meta" id="prog-standalone-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-standalone" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">DCU (Ганн)</span><span class="progress-meta" id="prog-dcu-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-dcu" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Сериалы</span><span class="progress-meta" id="prog-tv-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-tv" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Анимация</span><span class="progress-meta" id="prog-anim-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div class="progress-section">
+      <div class="progress-section-title">🎬 Прогресс по эрам DCEU</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Зарождение (2013–2017)</span><span class="progress-meta" id="prog-dceu-1-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-dceu-1" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Расширение (2018–2021)</span><span class="progress-meta" id="prog-dceu-2-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-dceu-2" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Закат (2022–2023)</span><span class="progress-meta" id="prog-dceu-3-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-dceu-3" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div class="progress-section">
+      <div class="progress-section-title">🌀 Прогресс по современным фильмам</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Трилогия Нолана</span><span class="progress-meta" id="prog-els-nolan-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-els-nolan" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Бэтмен Ривза</span><span class="progress-meta" id="prog-els-reeves-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-els-reeves" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Джокер Филлипса</span><span class="progress-meta" id="prog-els-joker-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-els-joker" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Vertigo и прочее</span><span class="progress-meta" id="prog-els-other-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-els-other" style="width:0%"></div></div>
+      </div>
+    </div>
+      </div>
+      <div class="progress-col">
+    <div class="progress-section">
+      <div class="progress-section-title">📼 Прогресс по классике</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Эра Доннера (Супермен)</span><span class="progress-meta" id="prog-cl-donner-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-cl-donner" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Эра Бёртона/Шумахера (Бэтмен)</span><span class="progress-meta" id="prog-cl-burton-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-cl-burton" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Прочая классика</span><span class="progress-meta" id="prog-cl-other-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-cl-other" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div class="progress-section">
+      <div class="progress-section-title">📺 Прогресс по сериалам</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Тайны Смолвиля</span><span class="progress-meta" id="prog-tv-smallville-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-tv-smallville" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Arrowverse</span><span class="progress-meta" id="prog-tv-arrowverse-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-tv-arrowverse" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Современные сериалы</span><span class="progress-meta" id="prog-tv-modern-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-tv-modern" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Классические сериалы</span><span class="progress-meta" id="prog-tv-classic-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-tv-classic" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div class="progress-section">
+      <div class="progress-section-title">🎨 Прогресс по анимации</div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">DC Animated Universe (Тимм)</span><span class="progress-meta" id="prog-anim-dcau-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim-dcau" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Прочие сериалы</span><span class="progress-meta" id="prog-anim-tv-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim-tv" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">DCAMU (киновселенная)</span><span class="progress-meta" id="prog-anim-dcamu-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim-dcamu" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Tomorrowverse</span><span class="progress-meta" id="prog-anim-tomorrow-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim-tomorrow" style="width:0%"></div></div>
+      </div>
+      <div class="progress-row">
+        <div class="progress-header"><span class="progress-name">Отдельные мультфильмы</span><span class="progress-meta" id="prog-anim-films-meta"></span></div>
+        <div class="progress-bar"><div class="progress-fill" id="prog-anim-films" style="width:0%"></div></div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="progress-grid">
+    <div class="progress-section">
+      <div class="progress-section-title">📈 Интересные факты</div>
+      <div id="fun-facts"></div>
+    </div>
+    <div class="progress-section rating-card">
+      <div class="progress-section-title">📊 Распределение моих оценок <span class="progress-meta" id="rating-count"></span></div>
+      <div id="rating-histogram"></div>
+    </div>
+    </div>
+
+    <div class="progress-section">
+      <div class="progress-section-title">🏆 Ачивки <span class="progress-meta" id="ach-count"></span></div>
+      <div class="achievements-grid" id="achievements-grid"></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-actions">
+    <button class="footer-btn" onclick="exportData()">💾 Экспорт прогресса</button>
+    <button class="footer-btn" onclick="document.getElementById('import-file').click()">📂 Импорт прогресса</button>
+    <button class="footer-btn danger" onclick="resetAll()">🗑️ Сбросить всё</button>
+    <input type="file" id="import-file" accept="application/json,.json" style="display:none" onchange="importData(event)">
+  </div>
+  <div class="footer-note">
+    💡 Прогресс и оценки сохраняются в браузере. Используй экспорт чтобы сохранить копию или перенести на другое устройство.
+  </div>
+  <div class="footer-credits">
+    Автор: Алина, <a href="https://t.me/purplebluebooks" target="_blank">PURPLEBLUEBOOK</a>. Актуально на: <span id="footer-date">29.05.2026</span>
+  </div>
+</footer>
+
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const views = {
+    dcu: document.getElementById('dcu-view'),
+    dceu: document.getElementById('dceu-view'),
+    standalone: document.getElementById('standalone-view'),
+    tv: document.getElementById('tv-view'),
+    anim: document.getElementById('anim-view'),
+    achievements: document.getElementById('achievements-view'),
+  };
+  const search = document.getElementById('search');
+  const STORAGE_KEY = 'dc-watched';
+  const RATINGS_KEY = 'dc-ratings';
+
+  function loadWatched() {
+    try { return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')); }
+    catch { return new Set(); }
+  }
+  function saveWatched(set) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify([...set])); } catch {}
+  }
+  function loadRatings() {
+    try { return JSON.parse(localStorage.getItem(RATINGS_KEY) || '{}'); }
+    catch { return {}; }
+  }
+  function saveRatings(obj) {
+    try { localStorage.setItem(RATINGS_KEY, JSON.stringify(obj)); } catch {}
+  }
+
+  let watched = loadWatched();
+  let ratings = loadRatings();
+
+  function formatMinutes(mins) {
+    if (mins <= 0) return '0 ч';
+    const h = Math.floor(mins / 60);
+    const m = mins % 60;
+    if (h === 0) return `${m} м`;
+    if (m === 0) return `${h} ч`;
+    return `${h} ч ${m.toString().padStart(2, '0')} м`;
+  }
+
+  function applyWatched() {
+    document.querySelectorAll('.item').forEach(item => {
+      const id = item.dataset.id;
+      const isWatched = watched.has(id);
+      item.classList.toggle('watched', isWatched);
+      const cb = item.querySelector('.checkbox');
+      if (cb) cb.classList.toggle('checked', isWatched);
+    });
+  }
+
+  document.querySelectorAll('.checkbox').forEach(cb => {
+    cb.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = cb.closest('.item');
+      if (item.hasAttribute('data-unreleased')) return;
+      const id = item.dataset.id;
+      if (watched.has(id)) watched.delete(id);
+      else watched.add(id);
+      saveWatched(watched);
+      document.querySelectorAll(`.item[data-id="${id}"]`).forEach(el => {
+        el.classList.toggle('watched', watched.has(id));
+        el.querySelector('.checkbox').classList.toggle('checked', watched.has(id));
+      });
+      updateCounts();
+    });
+  });
+
+  function resetAll() {
+    if (!confirm('Сбросить все галочки и оценки? Это действие необратимо.')) return;
+    watched.clear();
+    ratings = {};
+    saveWatched(watched);
+    saveRatings(ratings);
+    applyWatched();
+    renderAllRatings();
+    updateCounts();
+  }
+  window.resetAll = resetAll;
+
+  function exportData() {
+    const data = {
+      version: 1,
+      universe: 'DC',
+      exportedAt: new Date().toISOString(),
+      watched: [...watched],
+      ratings: ratings,
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const date = new Date().toISOString().split('T')[0];
+    a.href = url;
+    a.download = `dc-progress-${date}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+  window.exportData = exportData;
+
+  function importData(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (!data || (!Array.isArray(data.watched) && !data.ratings)) {
+          alert('Это не похоже на файл прогресса.');
+          return;
+        }
+        const wCount = Array.isArray(data.watched) ? data.watched.length : 0;
+        const rCount = data.ratings ? Object.keys(data.ratings).length : 0;
+        const exportedAt = data.exportedAt ? new Date(data.exportedAt).toLocaleString('ru-RU') : 'неизвестно';
+        if (!confirm(`Импортировать прогресс?\n\nГалочек: ${wCount}\nОценок: ${rCount}\nВыгружено: ${exportedAt}\n\nТекущий прогресс будет заменён.`)) {
+          event.target.value = '';
+          return;
+        }
+        if (Array.isArray(data.watched)) {
+          watched = new Set(data.watched);
+          saveWatched(watched);
+        }
+        if (data.ratings && typeof data.ratings === 'object') {
+          ratings = data.ratings;
+          saveRatings(ratings);
+        }
+        applyWatched();
+        renderAllRatings();
+        updateCounts();
+        alert('Прогресс успешно импортирован!');
+      } catch (err) {
+        alert('Не удалось прочитать файл: ' + err.message);
+      }
+      event.target.value = '';
+    };
+    reader.readAsText(file);
+  }
+  window.importData = importData;
+
+  // ===== Звёзды оценок (10 баллов) =====
+  function renderRating(itemEl) {
+    if (itemEl.hasAttribute('data-unreleased')) return;
+    const id = itemEl.dataset.id;
+    const value = ratings[id] || 0;
+    let existing = itemEl.querySelector('.rating');
+    if (!existing) {
+      existing = document.createElement('div');
+      existing.className = 'rating';
+      const imdbLink = itemEl.querySelector('.imdb-link');
+      itemEl.insertBefore(existing, imdbLink);
+    }
+    let html = '';
+    for (let i = 1; i <= 5; i++) {
+      const halfVal = i * 2 - 1;
+      const fullVal = i * 2;
+      let cls = '';
+      if (value >= fullVal) cls = 'filled';
+      else if (value >= halfVal) cls = 'half';
+      html += `<span class="rating-star ${cls}" data-val="${fullVal}" data-half="${halfVal}">★</span>`;
+    }
+    html += `<span class="rating-value">${value > 0 ? value + '/10' : ''}</span>`;
+    if (value > 0) {
+      html += `<span class="rating-clear" title="Убрать оценку">✕</span>`;
+    }
+    existing.innerHTML = html;
+  }
+
+  function renderAllRatings() {
+    document.querySelectorAll('.item:not([data-unreleased])').forEach(renderRating);
+  }
+
+  const RATING_COLORS = {1:'#ef4444',2:'#f9663c',3:'#f97316',4:'#f59e0b',5:'#eab308',6:'#c8c70f',7:'#9bcb15',8:'#5fc230',9:'#33c14e',10:'#22c55e'};
+  function renderRatingHist() {
+    const el = document.getElementById('rating-histogram');
+    if (!el) return;
+    const vals = Object.values(ratings).filter(v => v >= 1 && v <= 10);
+    const countEl = document.getElementById('rating-count');
+    if (countEl) countEl.textContent = vals.length ? `(оценено: ${vals.length})` : '';
+    if (vals.length === 0) {
+      el.innerHTML = '<div class="rating-empty">Пока нет оценок. Поставь звёзды фильмам и сериалам — и здесь появится статистика.</div>';
+      return;
+    }
+    const bins = Array(11).fill(0);
+    vals.forEach(v => bins[v]++);
+    const maxBin = Math.max(...bins);
+    let bars = '<div class="rating-hist">';
+    for (let i = 1; i <= 10; i++) {
+      const h = maxBin > 0 ? (bins[i] / maxBin) * 100 : 0;
+      const c = RATING_COLORS[i];
+      bars += `<div class="rating-hist-bar-wrap"><div class="rating-hist-count">${bins[i] || ''}</div>`
+            + `<div class="rating-hist-bar" style="height:${h}%;background:linear-gradient(180deg, ${c}cc 0%, ${c} 100%)"></div></div>`;
+    }
+    bars += '</div>';
+    let axis = '<div class="rating-hist-axis">';
+    for (let i = 1; i <= 10; i++) axis += `<div class="rating-hist-label${bins[i] ? ' has' : ''}">${i}</div>`;
+    axis += '</div>';
+    const sum = vals.reduce((a, b) => a + b, 0);
+    const avg = (sum / vals.length).toFixed(1);
+    const sorted = [...vals].sort((a, b) => a - b);
+    const mid = Math.floor(sorted.length / 2);
+    const median = (sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2).toFixed(1);
+    const minV = sorted[0], maxV = sorted[sorted.length - 1];
+    const range = minV === maxV ? `${minV}` : `${minV}–${maxV}`;
+    const stats = `<div class="rating-stats">`
+      + `<div class="rating-stat"><div class="rating-stat-label">Средняя</div><div class="rating-stat-value">${avg}</div></div>`
+      + `<div class="rating-stat"><div class="rating-stat-label">Медиана</div><div class="rating-stat-value">${median}</div></div>`
+      + `<div class="rating-stat"><div class="rating-stat-label">Разброс</div><div class="rating-stat-value">${range}</div></div>`
+      + `</div>`;
+    el.innerHTML = bars + axis + stats;
+  }
+
+  document.addEventListener('click', (e) => {
+    const star = e.target.closest('.rating-star');
+    const clear = e.target.closest('.rating-clear');
+    if (!star && !clear) return;
+    const item = (star || clear).closest('.item');
+    if (!item) return;
+    e.stopPropagation();
+    const id = item.dataset.id;
+    if (clear) {
+      delete ratings[id];
+    } else if (star) {
+      const rect = star.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const isLeftHalf = clickX < rect.width / 2;
+      const newValue = isLeftHalf ? parseInt(star.dataset.half) : parseInt(star.dataset.val);
+      ratings[id] = (ratings[id] === newValue) ? 0 : newValue;
+      if (ratings[id] === 0) delete ratings[id];
+    }
+    saveRatings(ratings);
+    renderRating(item);
+    renderRatingHist();
+  });
+  // ===== Конец звёзд =====
+
+  function switchTab(tabName) {
+    tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tabName));
+    Object.entries(views).forEach(([key, el]) => {
+      el.classList.toggle('hidden', key !== tabName);
+    });
+    search.style.display = tabName === 'achievements' ? 'none' : '';
+    filter();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  const tabsContainer = document.querySelector('.tabs');
+  tabsContainer.addEventListener('click', (e) => {
+    const tab = e.target.closest('.tab');
+    if (tab && tab.dataset.tab) switchTab(tab.dataset.tab);
+  });
+
+  // ===== Подсчёты =====
+  function sectionSummary(viewId) {
+    let total = 0, done = 0, totalMins = 0, doneMins = 0;
+    document.querySelectorAll(`#${viewId} .item:not([data-unreleased])`).forEach(item => {
+      const mins = parseInt(item.dataset.mins) || 0;
+      total++;
+      totalMins += mins;
+      if (watched.has(item.dataset.id)) { done++; doneMins += mins; }
+    });
+    return { total, done, totalMins, doneMins };
+  }
+
+  function setBanner(viewId, bannerId) {
+    const s = sectionSummary(viewId);
+    const pct = s.totalMins > 0 ? Math.round((s.doneMins / s.totalMins) * 100) : 0;
+    const el = document.getElementById(bannerId);
+    if (el) el.textContent = `${formatMinutes(s.doneMins)} / ${formatMinutes(s.totalMins)} · ${pct}% по часам`;
+    return s;
+  }
+
+  function computePhaseTotals() {
+    // Суммы по фазам/группам (подписи у заголовков)
+    document.querySelectorAll('[data-phase], [data-group]').forEach(listEl => {
+      const phaseId = listEl.dataset.phase;
+      const groupId = listEl.dataset.group;
+      let total = 0, done = 0;
+      listEl.querySelectorAll('.item:not([data-unreleased])').forEach(item => {
+        const mins = parseInt(item.dataset.mins) || 0;
+        total += mins;
+        if (watched.has(item.dataset.id)) done += mins;
+      });
+      const key = phaseId || groupId;
+      const selector = phaseId ? `[data-phase-id="${phaseId}"]` : `[data-group-id="${groupId}"]`;
+      const label = document.querySelector(selector);
+      if (label) label.textContent = `${formatMinutes(done)} / ${formatMinutes(total)}`;
+    });
+
+    setBanner('dcu-view', 'dcu-total');
+    setBanner('dceu-view', 'dceu-total');
+    setBanner('standalone-view', 'standalone-total');
+    setBanner('tv-view', 'tv-total');
+    setBanner('anim-view', 'anim-total');
+  }
+
+  function updateCounts() {
+    [['dcu','dcu-view'], ['dceu','dceu-view'], ['standalone','standalone-view'], ['tv','tv-view'], ['anim','anim-view']].forEach(([key, viewId]) => {
+      const items = document.querySelectorAll(`#${viewId} .item:not([data-unreleased])`);
+      const done = [...items].filter(i => watched.has(i.dataset.id)).length;
+      const el = document.getElementById(`${key}-count`);
+      if (el) el.textContent = `Просмотрено: ${done} из ${items.length}`;
+    });
+    computePhaseTotals();
+    updateAchievements();
+  }
+
+  function filter() {
+    const q = search.value.toLowerCase().trim();
+    const activeView = Object.values(views).find(v => !v.classList.contains('hidden'));
+    if (!activeView) return;
+    activeView.querySelectorAll('.item').forEach(item => {
+      const title = item.querySelector('.item-title').textContent.toLowerCase();
+      const ru = item.querySelector('.item-ru')?.textContent.toLowerCase() || '';
+      item.style.display = (title.includes(q) || ru.includes(q)) ? '' : 'none';
+    });
+  }
+
+  // ===== Достижения =====
+  const RANKS = [
+    { min: 0,   title: "Обыватель Метрополиса", sub: "Слышала про Супермена в новостях" },
+    { min: 5,   title: "Очевидец", sub: "Видела что-то в небе над городом" },
+    { min: 15,  title: "Доброволец A.R.G.U.S.", sub: "Аманда Уоллер взяла на заметку" },
+    { min: 30,  title: "Резерв Лиги", sub: "Тебе оставили место за столом" },
+    { min: 50,  title: "Член Лиги Справедливости", sub: "Готова встать плечом к плечу" },
+    { min: 75,  title: "Хранитель Кольца", sub: "Сила воли при тебе" },
+    { min: 100, title: "Новый Бог", sub: "Видишь больше, чем смертные" },
+    { min: 999, title: "МОНИТОР", sub: "Ты наблюдаешь за всей мультивселенной" },
+  ];
+  function getRank(count) {
+    let current = RANKS[0];
+    for (const r of RANKS) if (count >= r.min) current = r;
+    return current;
+  }
+
+  function progressFromIds(ids) {
+    return [ids.filter(id => watched.has(id)).length, ids.length];
+  }
+  function allWatched(ids) { return ids.every(id => watched.has(id)); }
+  function countWatched(ids) { return ids.filter(id => watched.has(id)).length; }
+
+  const DCEU_1 = ['man-of-steel','bvs','suicide-squad','wonder-woman','justice-league'];
+  const DCEU_2 = ['aquaman','shazam','birds-of-prey','ww84','zsjl','the-suicide-squad'];
+  const DCEU_3 = ['peacemaker-s1','black-adam','shazam-2','the-flash','blue-beetle','aquaman-2'];
+  const DCEU_ALL = [...DCEU_1, ...DCEU_2, ...DCEU_3];
+  const DCU_REL = ['creature-commandos-s1','superman-2025','peacemaker-s2'];
+  const ELS_NOLAN = ['batman-begins','dark-knight','dark-knight-rises'];
+  const ELS_REEVES = ['the-batman'];
+  const ELS_JOKER = ['joker','joker-2'];
+  const ELS_ALL = [...ELS_NOLAN, ...ELS_REEVES, ...ELS_JOKER];
+  const ELS_OTHER = ['road-to-perdition','constantine-2005','history-of-violence','v-for-vendetta','watchmen-2009','the-losers','red-2010'];
+  const CL_DONNER = ['superman-1978','superman-2','superman-3','supergirl-1984','superman-4','superman-returns'];
+  const CL_BURTON = ['batman-1989','batman-returns','batman-forever','batman-robin'];
+  const CL_OTHER = ['swamp-thing-1982','steel','catwoman','jonah-hex','green-lantern','batman-66-movie'];
+  const CL_ALL = [...CL_DONNER, ...CL_BURTON, ...CL_OTHER];
+
+  const ANIM_DCAU = ['btas','superman-tas','new-batman-adv','batman-beyond-tas','static-shock','justice-league-tas','jlu'];
+  const ANIM_TV = ['teen-titans-03','the-batman-tas','legion-tas','brave-bold','young-justice','gl-tas','beware-batman','jl-action','teen-titans-go','dcshg','harley-quinn','my-adventures-superman'];
+  const ANIM_DCAMU = ['flashpoint','jl-war','son-of-batman','throne-atlantis','batman-vs-robin','batman-bad-blood','jl-vs-teen-titans','jl-dark','judas-contract','suicide-squad-hell','death-of-superman','reign-supermen','batman-hush','ww-bloodlines','apokolips-war'];
+  const ANIM_TOMORROW = ['superman-man-tomorrow','justice-society-ww2','long-halloween-1','long-halloween-2','injustice','gl-beware-power','legion-film','jl-warworld','crisis-1','crisis-2','crisis-3'];
+  const ANIM_FILMS = ['phantasm','subzero','return-of-joker','superman-doomsday','new-frontier','gotham-knight','ww-2009','gl-first-flight','public-enemies','red-hood','all-star-superman','batman-year-one','superman-vs-elite','dkr-1','dkr-2','superman-unbound','gods-and-monsters','killing-joke','gotham-by-gaslight','red-son','soul-of-dragon','catwoman-hunted'];
+  const ANIM_MOVIES_ALL = [...ANIM_DCAMU, ...ANIM_TOMORROW, ...ANIM_FILMS];
+  const ANIM_ALL = [...ANIM_DCAU, ...ANIM_TV, ...ANIM_MOVIES_ALL];
+
+  const TV_SMALLVILLE = ['smallville'];
+  const TV_ARROWVERSE = ['arrow','constantine-tv','flash-tv','supergirl-tv','legends','black-lightning','batwoman','superman-lois'];
+  const TV_MODERN = ['gotham','lucifer','krypton','titans','doom-patrol','swamp-thing-tv','pennyworth','watchmen-hbo','stargirl','sandman','izombie','preacher','y-last-man','sweet-tooth'];
+  const TV_CLASSIC = ['adventures-superman','batman-66','superboy','wonder-woman-77','flash-90','lois-clark','birds-of-prey-tv'];
+  const TV_ALL = [...TV_SMALLVILLE, ...TV_ARROWVERSE, ...TV_MODERN, ...TV_CLASSIC];
+
+  const ALL_BATMAN = ['batman-begins','dark-knight','dark-knight-rises','the-batman','batman-1989','batman-returns','batman-forever','batman-robin','phantasm','red-hood','dkr-1','dkr-2','batman-66','gotham','pennyworth'];
+  const ALL_SUPERMAN = ['man-of-steel','superman-2025','superman-1978','superman-2','superman-3','superman-4','superman-returns','all-star-superman','death-of-superman','red-son','smallville','supergirl-tv','superman-lois','adventures-superman','lois-clark','krypton'];
+  const ALL_FLASH = ['the-flash','flash-tv','flash-90','flashpoint'];
+
+  const ACHIEVEMENTS = [
+    { id: 'first-step', icon: '🎬', title: 'Первый шаг', desc: 'Отметить хотя бы один просмотр',
+      check: () => watched.size >= 1, progress: () => [Math.min(watched.size, 1), 1] },
+    { id: 'trinity', icon: '🔱', title: 'Святая Троица', desc: 'Супермен, Бэтмен и Чудо-женщина в одном кадре (BvS, Wonder Woman, Man of Steel)',
+      check: () => allWatched(['man-of-steel','wonder-woman','bvs']),
+      progress: () => progressFromIds(['man-of-steel','wonder-woman','bvs']) },
+    { id: 'snyder-cut', icon: '🎞️', title: 'Release the Snyder Cut', desc: 'Осилить 4-часовую «Лигу справедливости Зака Снайдера»',
+      check: () => watched.has('zsjl'), progress: () => progressFromIds(['zsjl']) },
+    { id: 'snyderverse', icon: '🌑', title: 'Снайдерверс', desc: 'Man of Steel, BvS, ZSJL, Suicide Squad и Wonder Woman',
+      check: () => allWatched(['man-of-steel','bvs','zsjl','suicide-squad','wonder-woman']),
+      progress: () => progressFromIds(['man-of-steel','bvs','zsjl','suicide-squad','wonder-woman']) },
+    { id: 'dceu-founding', icon: '⚔️', title: 'Зарождение', desc: 'Закрыть эру «Зарождение вселенной» (2013–2017)',
+      check: () => allWatched(DCEU_1), progress: () => progressFromIds(DCEU_1) },
+    { id: 'dceu-complete', icon: '🏛️', title: 'Вся Расширенная вселенная', desc: 'Посмотреть все проекты DCEU',
+      check: () => allWatched(DCEU_ALL), progress: () => progressFromIds(DCEU_ALL) },
+    { id: 'aquaman-fan', icon: '🌊', title: 'Король Атлантиды', desc: 'Оба фильма про Аквамена',
+      check: () => allWatched(['aquaman','aquaman-2']), progress: () => progressFromIds(['aquaman','aquaman-2']) },
+    { id: 'shazam-fan', icon: '⚡', title: 'Скажи волшебное слово', desc: 'Обе части «Шазам!»',
+      check: () => allWatched(['shazam','shazam-2']), progress: () => progressFromIds(['shazam','shazam-2']) },
+    { id: 'wonder-fan', icon: '🪢', title: 'Принцесса амазонок', desc: 'Оба фильма про Чудо-женщину',
+      check: () => allWatched(['wonder-woman','ww84']), progress: () => progressFromIds(['wonder-woman','ww84']) },
+    { id: 'gunn-squad', icon: '💣', title: 'Команда Ганна', desc: 'Suicide Squad, The Suicide Squad и оба сезона «Миротворца»',
+      check: () => allWatched(['suicide-squad','the-suicide-squad','peacemaker-s1','peacemaker-s2']),
+      progress: () => progressFromIds(['suicide-squad','the-suicide-squad','peacemaker-s1','peacemaker-s2']) },
+    { id: 'dcu-canon', icon: '🌟', title: 'Новая эра', desc: 'Посмотреть всё вышедшее в DCU Джеймса Ганна',
+      check: () => allWatched(DCU_REL), progress: () => progressFromIds(DCU_REL) },
+    { id: 'new-superman', icon: '🟥', title: 'Человек завтрашнего дня', desc: 'Посмотреть «Супермен» (2025) Джеймса Ганна',
+      check: () => watched.has('superman-2025'), progress: () => progressFromIds(['superman-2025']) },
+    { id: 'nolan-trilogy', icon: '🦇', title: 'Тёмный рыцарь', desc: 'Вся трилогия Кристофера Нолана',
+      check: () => allWatched(ELS_NOLAN), progress: () => progressFromIds(ELS_NOLAN) },
+    { id: 'why-so-serious', icon: '🃏', title: 'Почему так серьёзно?', desc: 'Оба фильма про Джокера Тодда Филлипса',
+      check: () => allWatched(ELS_JOKER), progress: () => progressFromIds(ELS_JOKER) },
+    { id: 'i-am-vengeance', icon: '🕵️', title: 'Я — месть', desc: 'Посмотреть «Бэтмен» (2022) Мэтта Ривза',
+      check: () => watched.has('the-batman'), progress: () => progressFromIds(['the-batman']) },
+    { id: 'elseworlds-all', icon: '🌀', title: 'Иные миры', desc: 'Закрыть все вышедшие Elseworlds',
+      check: () => allWatched(ELS_ALL), progress: () => progressFromIds(ELS_ALL) },
+    { id: 'donner-era', icon: '🟦', title: 'Человек умеет летать', desc: 'Вся классика про Супермена (1978–2006)',
+      check: () => allWatched(CL_DONNER), progress: () => progressFromIds(CL_DONNER) },
+    { id: 'burton-era', icon: '🦇', title: 'Я — Бэтмен', desc: 'Вся классика Бёртона/Шумахера (1989–1997)',
+      check: () => allWatched(CL_BURTON), progress: () => progressFromIds(CL_BURTON) },
+    { id: 'cl-other-all', icon: '🟢', title: 'Зелёный Фонарь не виноват', desc: 'Осилить всю «прочую классику»',
+      check: () => allWatched(CL_OTHER), progress: () => progressFromIds(CL_OTHER) },
+    { id: 'animation-lover', icon: '🎨', title: 'Любитель анимации', desc: 'Посмотреть 5+ проектов из раздела «Анимация»',
+      check: () => countWatched(ANIM_ALL) >= 5, progress: () => [Math.min(countWatched(ANIM_ALL), 5), 5] },
+    { id: 'all-animation', icon: '🖌️', title: 'Архивариус мультфильмов', desc: 'Посмотреть все полнометражные мультфильмы DC',
+      check: () => allWatched(ANIM_MOVIES_ALL), progress: () => progressFromIds(ANIM_MOVIES_ALL) },
+    { id: 'dcau-complete', icon: '🦇', title: 'Вселенная Тимма', desc: 'Весь DC Animated Universe — от BTAS до Justice League Unlimited',
+      check: () => allWatched(ANIM_DCAU), progress: () => progressFromIds(ANIM_DCAU) },
+    { id: 'dcamu-complete', icon: '🎬', title: 'Анимационная киновселенная', desc: 'Все фильмы DCAMU (2013–2020)',
+      check: () => allWatched(ANIM_DCAMU), progress: () => progressFromIds(ANIM_DCAMU) },
+    { id: 'tomorrowverse-anim', icon: '🌅', title: 'Tomorrowverse', desc: 'Все фильмы Tomorrowverse (2020–2024)',
+      check: () => allWatched(ANIM_TOMORROW), progress: () => progressFromIds(ANIM_TOMORROW) },
+    { id: 'btas-fan', icon: '🌃', title: 'Я — ночь', desc: 'Посмотреть культовый «Batman: The Animated Series»',
+      check: () => watched.has('btas'), progress: () => progressFromIds(['btas']) },
+    { id: 'harley-fan', icon: '💚', title: 'Безумная любовь', desc: 'Посмотреть мультсериал «Harley Quinn»',
+      check: () => watched.has('harley-quinn'), progress: () => progressFromIds(['harley-quinn']) },
+    { id: 'all-dc-anim', icon: '🎞️', title: 'Анимационный архивариус', desc: 'Закрыть весь раздел «Анимация» целиком',
+      check: () => allWatched(ANIM_ALL), progress: () => progressFromIds(ANIM_ALL) },
+    { id: 'all-batman', icon: '🌃', title: 'Полуночный детектив', desc: 'Все Бэтмены во всех вселенных',
+      check: () => allWatched(ALL_BATMAN), progress: () => progressFromIds(ALL_BATMAN) },
+    { id: 'all-superman', icon: '☀️', title: 'Сын Криптона', desc: 'Все Супермены во всех вселенных',
+      check: () => allWatched(ALL_SUPERMAN), progress: () => progressFromIds(ALL_SUPERMAN) },
+    { id: 'classic-all', icon: '📼', title: 'Хранитель архивов DC', desc: 'Закрыть весь раздел «Классика»',
+      check: () => allWatched(CL_ALL), progress: () => progressFromIds(CL_ALL) },
+    { id: 'smallville-done', icon: '🌽', title: '10 лет в Смолвиле', desc: 'Осилить все 10 сезонов «Тайн Смолвиля»',
+      check: () => watched.has('smallville'), progress: () => progressFromIds(['smallville']) },
+    { id: 'arrowverse-complete', icon: '🏹', title: 'Команда Стрелы', desc: 'Посмотреть весь Arrowverse (8 шоу The CW)',
+      check: () => allWatched(TV_ARROWVERSE), progress: () => progressFromIds(TV_ARROWVERSE) },
+    { id: 'flash-multimedia', icon: '⚡', title: 'Спидстер всех миров', desc: 'Флэш в кино, сериалах 2014 и 1990 и в анимации',
+      check: () => allWatched(ALL_FLASH), progress: () => progressFromIds(ALL_FLASH) },
+    { id: 'tv-starter', icon: '📺', title: 'Сериаломан', desc: 'Посмотреть 5+ сериалов DC',
+      check: () => countWatched(TV_ALL) >= 5, progress: () => [Math.min(countWatched(TV_ALL), 5), 5] },
+    { id: 'all-dc-tv', icon: '🛰️', title: 'Телемарафон DC', desc: 'Закрыть весь раздел «Сериалы»',
+      check: () => allWatched(TV_ALL), progress: () => progressFromIds(TV_ALL) },
+    { id: 'binge-100', icon: '🔥', title: '100 часов', desc: 'Просмотреть 100+ часов контента',
+      check: () => totalMinsWatched() >= 6000, progress: () => [Math.min(Math.floor(totalMinsWatched()/60), 100), 100] },
+    { id: 'binge-200', icon: '🌟', title: '200 часов', desc: 'Просмотреть 200+ часов контента',
+      check: () => totalMinsWatched() >= 12000, progress: () => [Math.min(Math.floor(totalMinsWatched()/60), 200), 200] },
+    { id: 'binge-300', icon: '💫', title: '300 часов', desc: 'Просмотреть 300+ часов контента',
+      check: () => totalMinsWatched() >= 18000, progress: () => [Math.min(Math.floor(totalMinsWatched()/60), 300), 300] },
+    { id: 'binge-500', icon: '🌌', title: '500 часов', desc: 'Просмотреть 500+ часов контента',
+      check: () => totalMinsWatched() >= 30000, progress: () => [Math.min(Math.floor(totalMinsWatched()/60), 500), 500] },
+    { id: 'binge-1000', icon: '🪐', title: '1000 часов', desc: 'Просмотреть 1000+ часов контента',
+      check: () => totalMinsWatched() >= 60000, progress: () => [Math.min(Math.floor(totalMinsWatched()/60), 1000), 1000] },
+    { id: 'completionist', icon: '👑', title: 'Полная коллекция', desc: 'Закрыть всё вышедшее: DCU, DCEU, Elseworlds и классику',
+      check: () => { const s = grandTotals(); return s.done === s.total && s.total > 0; },
+      progress: () => { const s = grandTotals(); return [s.done, s.total]; } },
+    { id: 'monitor', icon: '👁️', title: 'МОНИТОР', desc: 'Абсолютный максимум — все доступные проекты отмечены',
+      check: () => { const s = grandTotals(); return s.done === s.total && s.total > 0; },
+      progress: () => { const s = grandTotals(); return [s.done, s.total]; } },
+  ];
+
+  function totalMinsWatched() {
+    let mins = 0;
+    document.querySelectorAll('.item:not([data-unreleased])').forEach(item => {
+      if (watched.has(item.dataset.id)) mins += parseInt(item.dataset.mins) || 0;
+    });
+    return mins;
+  }
+  function grandTotals() {
+    let total = 0, done = 0;
+    document.querySelectorAll('.item:not([data-unreleased])').forEach(item => {
+      total++;
+      if (watched.has(item.dataset.id)) done++;
+    });
+    return { total, done };
+  }
+
+  function setProgressBar(id, done, total) {
+    const fill = document.getElementById(`prog-${id}`);
+    const meta = document.getElementById(`prog-${id}-meta`);
+    if (!fill || !meta) return;
+    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+    fill.style.width = pct + '%';
+    fill.classList.toggle('full', pct === 100 && total > 0);
+    meta.textContent = `${done} / ${total} · ${pct}%`;
+  }
+
+  function updateAchievements() {
+    const dcu = sectionSummary('dcu-view');
+    const dceu = sectionSummary('dceu-view');
+    const standalone = sectionSummary('standalone-view');
+    const tv = sectionSummary('tv-view');
+    const anim = sectionSummary('anim-view');
+
+    const totalDone = dcu.done + dceu.done + standalone.done + tv.done + anim.done;
+    const totalAll = dcu.total + dceu.total + standalone.total + tv.total + anim.total;
+    const totalMins = dcu.doneMins + dceu.doneMins + standalone.doneMins + tv.doneMins + anim.doneMins;
+    const totalHours = Math.round(totalMins / 60);
+
+    const rank = getRank(totalDone);
+    const rankEl = document.getElementById('hero-rank');
+    const subEl = document.getElementById('hero-rank-sub');
+    if (rankEl) rankEl.textContent = rank.title;
+    if (subEl) subEl.textContent = rank.sub;
+    document.getElementById('stat-watched').textContent = totalDone;
+    document.getElementById('stat-dceu').textContent = dceu.total > 0 ? Math.round((dceu.done / dceu.total) * 100) + '%' : '0%';
+    document.getElementById('stat-hours').textContent = totalHours;
+    document.getElementById('stat-percent').textContent = totalAll > 0 ? Math.round((totalDone / totalAll) * 100) + '%' : '0%';
+    const ratingVals = Object.values(ratings).filter(v => v >= 1 && v <= 10);
+    const avgRatingEl = document.getElementById('stat-avg-rating');
+    if (avgRatingEl) avgRatingEl.textContent = ratingVals.length ? (ratingVals.reduce((a, b) => a + b, 0) / ratingVals.length).toFixed(1) : '—';
+
+    setProgressBar('dcu', dcu.done, dcu.total);
+    setProgressBar('dceu', dceu.done, dceu.total);
+    setProgressBar('standalone', standalone.done, standalone.total);
+    setProgressBar('tv', tv.done, tv.total);
+    setProgressBar('anim', anim.done, anim.total);
+
+    const groupDefs = {
+      'dceu-1': DCEU_1, 'dceu-2': DCEU_2, 'dceu-3': DCEU_3,
+      'els-nolan': ELS_NOLAN, 'els-reeves': ELS_REEVES, 'els-joker': ELS_JOKER, 'els-other': ELS_OTHER,
+      'cl-donner': CL_DONNER, 'cl-burton': CL_BURTON, 'cl-other': CL_OTHER,
+      'anim-dcau': ANIM_DCAU, 'anim-tv': ANIM_TV, 'anim-dcamu': ANIM_DCAMU, 'anim-tomorrow': ANIM_TOMORROW, 'anim-films': ANIM_FILMS,
+      'tv-smallville': TV_SMALLVILLE, 'tv-arrowverse': TV_ARROWVERSE, 'tv-modern': TV_MODERN, 'tv-classic': TV_CLASSIC,
+    };
+    for (const [gid, ids] of Object.entries(groupDefs)) {
+      const [d, t] = progressFromIds(ids);
+      setProgressBar(gid, d, t);
+    }
+
+    const grid = document.getElementById('achievements-grid');
+    if (grid) {
+      let unlocked = 0;
+      grid.innerHTML = ACHIEVEMENTS.map(a => {
+        const ok = a.check();
+        if (ok) unlocked++;
+        const [cur, total] = a.progress ? a.progress() : [ok ? 1 : 0, 1];
+        return `<div class="achievement${ok ? ' unlocked' : ''}">
+          <div class="achievement-progress">${cur} / ${total}</div>
+          <div class="achievement-icon">${a.icon}</div>
+          <div class="achievement-title">${a.title}</div>
+          <div class="achievement-desc">${a.desc}</div>
+        </div>`;
+      }).join('');
+      document.getElementById('ach-count').textContent = `${unlocked} / ${ACHIEVEMENTS.length}`;
+    }
+
+    const facts = [];
+    if (totalDone === 0) {
+      facts.push(`👋 <strong>Добро пожаловать!</strong> Поставь первую галочку — и приключение начнётся.`);
+    } else {
+      const days = (totalMins / 60 / 24).toFixed(1);
+      const weeks = (totalMins / 60 / 40).toFixed(1);
+      facts.push(`⏱️ Ты потратила <strong>${totalHours} часов</strong> на DC. Это примерно <strong>${days} дней</strong> непрерывного просмотра — или <strong>${weeks} рабочих недель</strong>. И кто тебе за это заплатит? 💸`);
+
+      const achUnlocked = ACHIEVEMENTS.filter(a => a.check()).length;
+      facts.push(`🏆 Открыто <strong>${achUnlocked} из ${ACHIEVEMENTS.length}</strong> достижений.`);
+
+      const watchedEls = [...document.querySelectorAll('.item.watched')];
+      let films = 0, series = 0, anims = 0, longestTitle = '', longestMins = 0;
+      watchedEls.forEach(it => {
+        const cls = (it.querySelector('.badge') || {}).className || '';
+        if (/\banim\b/.test(cls)) anims++;
+        else if (/\btv\b/.test(cls)) series++;
+        else films++;
+        const m = parseInt(it.dataset.mins || '0', 10);
+        if (m > longestMins) { longestMins = m; longestTitle = (it.querySelector('.item-title') || {}).textContent || ''; }
+      });
+      facts.push(`🍿 Из просмотренного: фильмов <strong>${films}</strong>, сериалов <strong>${series}</strong>, анимации <strong>${anims}</strong>.`);
+      if (longestTitle) {
+        facts.push(`⏳ Самое длинное из просмотренного — <strong>«${longestTitle}»</strong> (${formatMinutes(longestMins)}).`);
+      }
+
+      const closedSections = [dcu, dceu, standalone, tv, anim].filter(s => s.total > 0 && s.done === s.total).length;
+      facts.push(`🎞️ Полностью закрыто разделов: <strong>${closedSections} из 5</strong>.`);
+
+      const sections = [
+        { name: 'DCU (Ганн)', s: dcu },
+        { name: 'DCEU', s: dceu },
+        { name: 'Вне вселенных', s: standalone },
+        { name: 'Сериалы', s: tv },
+        { name: 'Анимация', s: anim },
+      ];
+      let best = null, bestPct = 0;
+      sections.forEach(x => {
+        if (x.s.total > 0) {
+          const pct = x.s.done / x.s.total;
+          if (pct > bestPct) { bestPct = pct; best = x.name; }
+        }
+      });
+      if (best && bestPct > 0) {
+        facts.push(`🎯 Лучший прогресс — <strong>${best}</strong> (${Math.round(bestPct * 100)}%).`);
+      }
+
+      const dceuLeft = dceu.total - dceu.done;
+      if (dceuLeft > 0 && dceu.done > 0) {
+        const minsLeft = dceu.totalMins - dceu.doneMins;
+        facts.push(`🎬 До завершения DCEU осталось <strong>${dceuLeft} проектов</strong> (~${Math.round(minsLeft / 60)} ч).`);
+      }
+      if (dceu.done === dceu.total && dceu.total > 0) {
+        facts.push(`🏛️ <strong>DCEU полностью закрыт!</strong> От «Человека из стали» до «Потерянного царства».`);
+      }
+      if (totalDone === totalAll && totalAll > 0) {
+        facts.push(`👑 <strong>Вся вселенная DC закрыта!</strong> Монитор гордится тобой.`);
+      }
+    }
+    document.getElementById('fun-facts').innerHTML = facts.map(f => `<div class="fun-fact">${f}</div>`).join('');
+    renderRatingHist();
+  }
+  // ===== Конец достижений =====
+
+  search.addEventListener('input', filter);
+  applyWatched();
+  renderAllRatings();
+  updateCounts();
+</script>
+<!-- Аналитика посещений (GoatCounter) -->
+<script data-goatcounter="https://dc-tracker.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
